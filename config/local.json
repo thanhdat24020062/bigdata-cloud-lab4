@@ -1,0 +1,6 @@
+{
+  "team_id": "team-01",
+  "master": "local[2]",
+  "service_url": "http://127.0.0.1:8765",
+  "mode": "local-functional-profile; not evidence of multi-node execution"
+}

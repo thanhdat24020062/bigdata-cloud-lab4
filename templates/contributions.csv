@@ -1,0 +1,6 @@
+member,technical_role,code_commit_or_hash,evidence_path,cross_check,individual_demo
+A,Input integrity and producer/stream operation,,,,
+B,Baseline and cutoff verification,,,,
+C,Scoring metrics and validation selection,,,,
+D,Semantic key independent review and recovery,,,,
+E,Audit verification and dashboard,,,,

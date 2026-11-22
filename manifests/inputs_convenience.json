@@ -1,0 +1,80 @@
+{
+  "id": "lab4-inputs-v1",
+  "files": [
+    {
+      "path": "data/event_sources/test_source.csv",
+      "bytes": 37864,
+      "sha256": "7ba71d62d9e1f371ce952eb62ff465ed45f246c83bf13be5b7231ec70ba1e82d"
+    },
+    {
+      "path": "data/event_sources/validation_source.csv",
+      "bytes": 37862,
+      "sha256": "67e00059ed3d3c5cdf88144beff491edb4ced591f50165ee2ec09bb95ae4fbe5"
+    },
+    {
+      "path": "data/events/test/part-000.csv",
+      "bytes": 33204,
+      "sha256": "bf38f6009e32f2a9b47fee681f519420bae9719b6d90b0532fa5060bb26c59d2"
+    },
+    {
+      "path": "data/events/test/part-001.csv",
+      "bytes": 33312,
+      "sha256": "93e99b939bf6450b60fbb1c9fa6a77bc1b5f208e9f78266106f840ca101915dc"
+    },
+    {
+      "path": "data/events/test/part-002.csv",
+      "bytes": 33308,
+      "sha256": "cdc3562916e58b43e20103ff1a3cd51fb7ae59b0f78728799144bdc8180d4289"
+    },
+    {
+      "path": "data/events/validation.csv",
+      "bytes": 103186,
+      "sha256": "07db614c38c810b7a8617b11d7ee94e169f6499cd32244e25aa675660d92b759"
+    },
+    {
+      "path": "data/labels/validation_labels.csv",
+      "bytes": 7829,
+      "sha256": "f1ef12799f8bf5ed01ab6091f653fd3f6cd6bcb53621108ca95c9686104c1909"
+    },
+    {
+      "path": "data/upstream/gold_lab3.json",
+      "bytes": 6421,
+      "sha256": "095c9b84ddcb2426f2a5cbbd7d46b0a35c579c7c609daba6021a7295cf5be8b4"
+    },
+    {
+      "path": "data/upstream/handoff.json",
+      "bytes": 956,
+      "sha256": "c018a8162f5ebd76e77e8f12a77bb182dbef80241e8b6c367a0bf794d0b4d1b8"
+    },
+    {
+      "path": "data/upstream/lab2_source_manifest.json",
+      "bytes": 796,
+      "sha256": "77dacfdb5a8b4e82fb2316990972de731a51b31f9fc052d739d0dea78e992331"
+    },
+    {
+      "path": "data/upstream/lab3_contract.json",
+      "bytes": 1360,
+      "sha256": "e45eff7a0bdb2a08b2c8f8d73c0617401c80a2809573983b64f7c2c939330e26"
+    },
+    {
+      "path": "data/upstream/sensors.csv",
+      "bytes": 256,
+      "sha256": "02c390e127c37b9d12e9ca156eae23a450ad1ae037001cddd9651bb6516b9bde"
+    },
+    {
+      "path": "data/upstream/silver_lab3.jsonl",
+      "bytes": 3086676,
+      "sha256": "d0e76f8b3525282d09c71a2e813ec91abcad2440f6f3eeaf8b7cbc55d922162a"
+    },
+    {
+      "path": "schemas/decision_contract.json",
+      "bytes": 1212,
+      "sha256": "c7560c2f8cf49037ea911c7f8c2a8bd35a3cf4ec187212d2f6be0178672366a5"
+    },
+    {
+      "path": "schemas/policy.schema.json",
+      "bytes": 673,
+      "sha256": "ee9e6bf38e8e366005c117be6298e733bbbc68ee011d32534aba76cf6fa3c6f6"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+# Instructor installs/caches before class. All other mandatory modules are stdlib.
+pyspark==4.0.1
+# Optional Delta exporter uses the already-qualified Lab 3 Delta 4.0.1 runtime.

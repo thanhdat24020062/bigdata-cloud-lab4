@@ -1,0 +1,49 @@
+{
+  "id": "lab4-research-telemetry-decision-v1",
+  "fit_cutoff_utc": "2026-02-09T00:00:00Z",
+  "validation_date": "2026-02-10",
+  "test_date": "2026-02-11",
+  "evaluation_as_of_utc": "2026-02-12T00:00:00Z",
+  "inherited_columns": [
+    "event_time_utc",
+    "ingest_time_utc",
+    "is_late",
+    "record_id",
+    "sensor_id",
+    "site",
+    "source_object",
+    "source_row",
+    "source_sha256",
+    "temperature_c"
+  ],
+  "min_baseline_rows": 30,
+  "mad_scale": "1.4826",
+  "scale_floor_c": "0.50",
+  "score_decimal_places": 6,
+  "rounding": "ROUND_HALF_UP",
+  "thresholds": [
+    "1.50",
+    "2.00",
+    "2.50",
+    "3.00",
+    "3.50"
+  ],
+  "threshold_comparison": "score >= threshold, after rounding score to 6 decimals",
+  "late_limit_seconds": 900,
+  "min_temperature_c": "-30.00",
+  "max_temperature_c": "60.00",
+  "cost_units": {
+    "false_negative": 50,
+    "false_positive": 10,
+    "alert_review": 2,
+    "hold_review": 10
+  },
+  "cost_display_divisor": 10,
+  "tie_break": [
+    "lowest cost_units",
+    "lowest fn",
+    "lowest fp",
+    "highest threshold"
+  ],
+  "scope": "New future observations do not change Lab 3 sources or cutoff. Only sandbox INSPECT_SENSOR tickets; no physical action."
+}

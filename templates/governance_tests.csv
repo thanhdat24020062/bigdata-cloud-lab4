@@ -1,0 +1,13 @@
+id,probe,expected,observed,evidence_path
+G01,Invalid credential,401 and no business-state mutation,,
+G02,Analyst review attempt,403 with no approval,,
+G03,Self-approval despite overlapping role,403 with no approval,,
+G04,Changed decision payload,409 with no altered decision,,
+G05,Short review reason,400 and still pending,,
+G06,Review NORMAL or HOLD,409 and no outbox,,
+G07,Dispatch before approval,zero tickets,,
+G08,Three approvals and two rejections,three outbox entries and two rejected,,
+G09,Pause then dispatch,409 and zero new effects,,
+G10,Fault after receiver commit,503 with one ticket and sender still pending,,
+G11,Retry and another dispatch,three distinct tickets then zero new effects,,
+G12,Edit truncate or rehash audit copies,external-anchor verification rejects mutations,,
