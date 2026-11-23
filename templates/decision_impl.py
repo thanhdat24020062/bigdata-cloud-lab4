@@ -277,4 +277,16 @@ def make_action_key(team_id: str, event: dict, policy_id: str) -> str:
     with ensure_ascii=False and separators=(",", ":").
     Never include batch_id, checkpoint path, arrival order, or wall-clock timestamps.
     """
-    raise NotImplementedError("T3: implement make_action_key")
+    import hashlib
+    import json
+
+    fields = [
+        team_id,
+        event["source_object"],
+        int(event["source_row"]),
+        event["source_sha256"],
+        event["record_id"],
+        policy_id,
+    ]
+    payload = json.dumps(fields, ensure_ascii=False, separators=(",", ":"))
+    return hashlib.sha256(payload.encode("utf-8")).hexdigest()
