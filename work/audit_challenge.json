@@ -1,0 +1,26 @@
+[
+  {
+    "case": "original",
+    "expected": true,
+    "observed": true,
+    "pass": true
+  },
+  {
+    "case": "edited",
+    "expected": false,
+    "observed": false,
+    "pass": true
+  },
+  {
+    "case": "truncated",
+    "expected": false,
+    "observed": false,
+    "pass": true
+  },
+  {
+    "case": "rehash_with_old_anchor",
+    "expected": false,
+    "observed": false,
+    "pass": true
+  }
+]
