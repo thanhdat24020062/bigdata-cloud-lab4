@@ -3,11 +3,11 @@ G01,Invalid credential,401 and no business-state mutation,401 passed,work/G01.js
 G02,Analyst review attempt,403 with no approval,,
 G03,Self-approval despite overlapping role,403 with no approval,403 passed,work/G03.json
 G04,Changed decision payload,409 with no altered decision,409 passed,work/G04.json
-G05,Short review reason,400 and still pending,,
-G06,Review NORMAL or HOLD,409 and no outbox,,
-G07,Dispatch before approval,zero tickets,,
-G08,Three approvals and two rejections,three outbox entries and two rejected,,
-G09,Pause then dispatch,409 and zero new effects,,
-G10,Fault after receiver commit,503 with one ticket and sender still pending,,
-G11,Retry and another dispatch,three distinct tickets then zero new effects,,
+G05,Short review reason,400 and still pending,400 - short review reason rejected,work/G05.json
+G06,Review NORMAL or HOLD,409 and no outbox,409 - non-alert review rejected,work/G06.json
+G07,Dispatch before approval,zero tickets,200 - delivered=0 before approval,work/before_approval.json
+G08,Three approvals and two rejections,three outbox entries and two rejected,"3 approved (S11, S03, S09), 2 rejected (S18, S06)",work/review_01.json; work/review_02.json; work/review_03.json; work/review_04.json; work/review_05.json
+G09,Pause then dispatch,409 and zero new effects,"Pause returned 200, dispatch while paused returned 409",work/paused.json; work/blocked.json
+G10,Fault after receiver commit,503 with one ticket and sender still pending,"503 after receiver commit, before sender acknowledgement",work/resumed.json; work/failure.json
+G11,Retry and another dispatch,three distinct tickets then zero new effects,"Retry delivered=3, receiver_deduplicated=1. Repeat delivered=0",work/recovered.json; work/repeated.json
 G12,Edit truncate or rehash audit copies,external-anchor verification rejects mutations,,

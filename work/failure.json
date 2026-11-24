@@ -1,0 +1,6 @@
+{
+  "http_status": 503,
+  "result": {
+    "error": "injected failure after receiver commit, before sender acknowledgement"
+  }
+}

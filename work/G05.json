@@ -1,0 +1,10 @@
+{
+  "probe": "short-reason",
+  "expected": 400,
+  "observed": 400,
+  "expected_error": "boolean approve and reason >=8 characters required",
+  "passed": true,
+  "response": {
+    "error": "boolean approve and reason >=8 characters required"
+  }
+}

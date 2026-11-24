@@ -10,7 +10,9 @@ from decimal import Decimal, InvalidOperation, ROUND_HALF_UP, localcontext
 _TS_FORMAT = "%Y-%m-%dT%H:%M:%SZ"
 
 
-# --- Baseline helpers and fit_baseline -------------------------------------
+# ---------------------------------------------------------------------------
+# DÁN 3 HÀM PHỤ + fit_baseline THAY CHO fit_baseline CŨ (raise NotImplementedError)
+# ---------------------------------------------------------------------------
 def _parse_utc(value, field: str) -> datetime:
     """Parse 'YYYY-MM-DDTHH:MM:SSZ' -> datetime; sai định dạng thì ValueError."""
     try:
@@ -101,7 +103,9 @@ def fit_baseline(rows: list[dict], contract: dict) -> dict[str, dict]:
             }
     return result
 
-# --- score_event and evaluate ----------------------------------------------
+# ---------------------------------------------------------------------------
+# PHẦN C (Member C): score_event + evaluate
+# ---------------------------------------------------------------------------
 _VALID_ROUTES = ("ALERT", "NORMAL", "HOLD")
 
 

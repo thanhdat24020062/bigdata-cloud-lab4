@@ -1,0 +1,7 @@
+{
+  "http_status": 200,
+  "result": {
+    "delivered": 0,
+    "receiver_deduplicated": 0
+  }
+}
