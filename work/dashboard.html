@@ -1,0 +1,21 @@
+<!doctype html><meta charset="utf-8"><title>Lab 4 Decision Support</title>
+<style>body{font:16px system-ui;max-width:1100px;margin:40px auto;padding:0 20px;color:#17344a}h1,h2{color:#12536d}table{border-collapse:collapse;width:100%;margin:20px 0}th,td{padding:9px;border-bottom:1px solid #cdd9df;text-align:left}th{background:#eaf3f5}.bar{height:14px;display:block;background:#267f96}code{overflow-wrap:anywhere}</style>
+<h1>Decision Support & Data-Driven Action</h1><p>Sandbox inspection only. Synthetic outcomes are not real fault ground truth.</p><p>Locked policy: <code>888d4b467d2a7fc04b5e4f696c7689c12134b79337b6ee3b0b6cc6c67d92532e</code></p>
+<h2>1. Historical lakehouse context</h2><p>Lab 3 Gold; weighted means computed from sums and counts. Handoff mode: course-fallback. Not a training-label table.</p>
+<table><tr><th>Site</th><th>Observations</th><th>Weighted mean C</th><th>Late</th></tr><tr><td>zone-1</td><td>2430</td><td>22.3123</td><td>55</td></tr><tr><td>zone-2</td><td>2430</td><td>22.8136</td><td>55</td></tr><tr><td>zone-3</td><td>2425</td><td>23.3132</td><td>55</td></tr><tr><td>zone-4</td><td>2425</td><td>23.3979</td><td>55</td></tr></table>
+<h2>2. Validation-only selection</h2>
+<table><tr><th>Threshold</th><th>TP</th><th>FP</th><th>FN</th><th>HOLD</th><th>F1</th><th>Proxy cost</th></tr><tr><td>1.50</td><td>85</td><td>32</td><td>1</td><td>20</td><td>0.8374384236453202</td><td>80.4</td></tr><tr><td>2.00</td><td>82</td><td>23</td><td>4</td><td>20</td><td>0.8586387434554974</td><td>84.0</td></tr><tr><td>2.50</td><td>61</td><td>16</td><td>25</td><td>20</td><td>0.7484662576687117</td><td>176.4</td></tr><tr><td>3.00</td><td>47</td><td>10</td><td>39</td><td>20</td><td>0.6573426573426573</td><td>236.4</td></tr><tr><td>3.50</td><td>27</td><td>4</td><td>59</td><td>20</td><td>0.46153846153846156</td><td>325.2</td></tr></table>
+<table><tr><th>Comparator</th><th>TP</th><th>FP</th><th>FN</th><th>Coverage</th><th>Cost</th></tr><tr><td>never_alert</td><td>0</td><td>0</td><td>86</td><td>0.9666666666666667</td><td>450.0</td></tr><tr><td>temperature_ge_30</td><td>38</td><td>12</td><td>48</td><td>0.9666666666666667</td><td>282.0</td></tr></table>
+<h2>3. Decisions and review queue</h2>
+<p>NORMAL: 467<span class="bar" style="width:77.83333333333333%"></span></p>
+<p>ALERT: 113<span class="bar" style="width:18.833333333333332%"></span></p>
+<p>HOLD: 20<span class="bar" style="width:3.3333333333333335%"></span></p>
+<table><tr><th>Status</th><th>Count</th></tr><tr><td>DISPATCHED</td><td>3</td></tr><tr><td>PENDING</td><td>108</td></tr><tr><td>RECORDED</td><td>487</td></tr><tr><td>REJECTED</td><td>2</td></tr></table>
+<p>Distinct receiver tickets: 3. Only the five selected examples are reviewed; pending alerts are not delivered.</p>
+<h2>4. Observability</h2>
+<table><tr><th>Metric</th><th>Value</th></tr><tr><td>Callback samples</td><td>6</td></tr><tr><td>Nearest-rank p95 seconds</td><td>0.052875888999551535</td></tr><tr><td>Audit entries</td><td>622</td></tr></table>
+<p>These measured callback times do not establish real-time field performance.</p>
+<h2>5. Sealed test evaluation</h2>
+<p>Sealed test metrics are computed during automated grading against held-out test labels. Do not invent results or retune after test feedback.</p>
+<h2>6. Auditable action trace</h2>
+<table><tr><th>Decision</th><th>Record</th><th>Status</th><th>Proposer</th><th>Reviewer</th></tr><tr><td>0c0606693d735849</td><td>L4T000149</td><td>DISPATCHED</td><td>member-A</td><td>member-D</td></tr><tr><td>0cb853e36efe21cc</td><td>L4T000258</td><td>REJECTED</td><td>member-A</td><td>member-D</td></tr><tr><td>0da26f9074ac495a</td><td>L4T000231</td><td>DISPATCHED</td><td>member-A</td><td>member-D</td></tr><tr><td>0dc55838a33de1ff</td><td>L4T000086</td><td>REJECTED</td><td>member-A</td><td>member-D</td></tr><tr><td>103917a1afc2d39c</td><td>L4T000123</td><td>DISPATCHED</td><td>member-A</td><td>member-D</td></tr></table>

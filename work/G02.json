@@ -1,0 +1,10 @@
+{
+  "probe": "viewer-review",
+  "expected": 403,
+  "observed": 403,
+  "expected_error": "role required: reviewer",
+  "passed": true,
+  "response": {
+    "error": "role required: reviewer"
+  }
+}
