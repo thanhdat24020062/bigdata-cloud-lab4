@@ -60,11 +60,19 @@ three independent approvals and two rejections, with record-specific reasons.
 Before/after control/outbox/receiver states. Explain the commit/acknowledgement
 window, why retry does not add a fourth ticket, and why PAUSE is not undo.
 ## 5. Dashboard and limitations
-Historical Gold context, actual sample counts/timings, policy metrics, test metrics
-only when independently supplied, anchored audit and source-to-ticket trace.
-Explain bounded driver collection, synthetic-label limits and missing HA evidence.
+`work/dashboard.html` (six sections) is rendered only after `verify_audit` passes against the anchor; it also checks that the Gold context equals the inherited `gold_lab3.json` and that the snapshot `policy_id` equals the locked policy.
+
+- **Gold context:** 20 historical rows as context, not training labels. Weighted site means (sum/count): zone-1 22.3123, zone-2 22.8136, zone-3 23.3132, zone-4 23.3979.
+- **Decisions:** 600 = 467 NORMAL + 113 ALERT + 20 HOLD. The 113 ALERTs are 3 DISPATCHED, 2 REJECTED and 108 PENDING; only five were reviewed, pending alerts are not delivered, and the receiver holds 3 distinct tickets.
+- **Observability:** 6 callback samples, nearest-rank p95 0.053 s. This is bounded callback time, not event-to-action latency or an SLO, and 6 samples are too few for a stable p95.
+- **Test metrics:** no independently supplied `test_metrics_TA.json` was available, so none are reported; Test labels were never read.
+- **Anchored audit:** 622 entries, anchor count 622, last_hash `9cb13e5c...`. `audit_challenge`: original True; edited, truncated and rehash-with-old-anchor all False (4/4).
+
+Limitations: (1) The stream adapter collects at most 1,001 rows per batch on the driver (`limit(1001).collect()`, one file per trigger, `local[2]`), so it shows correctness, not cluster-scale throughput. (2) Validation labels are synthetic injected episodes. (3) No HA evidence: one server process, one SQLite file per store, no failover or backup, single-node Spark. (4) The anchor was exported from the same sandbox by the operator role, so it demonstrates the verification mechanism but is not an independent trust anchor; in production it must be kept outside the control database. (5) The audit holds two DENIED entries from E's session beyond the planned probes: G02 and one accidental unauthenticated snapshot call. The server was found stopped and was restarted with the same config and state; startup only runs CREATE IF NOT EXISTS / INSERT OR IGNORE and writes no audit entry.
 ## 6. Individual contributions and assistance
 Link authored code/commands and cross-checks. Record external/AI help and how each
 member independently verified the result. Never include credentials.
 
 - **C (scoring, metrics, validation selection):** `score_event`/`evaluate` were drafted with AI assistance (Claude). C verified them independently: 8 public tests (6 C tests pass; 2 key tests depend on D), hand recomputation of cost_units 804 = 50*1 + 10*32 + 2*117 + 10*20, HOLD = 20 equals the rows with lag > 900 s, and extra edge cases (lag 900 vs 901 s, NaN/Inf/empty/60.01, half-up rounding, duplicate ids and non-0/1 labels raise ValueError).
+
+- **E (audit verification, dashboard):** `verify_audit` was drafted with AI assistance (Claude). E verified it independently: 14 own unit tests (tampered entry, truncation, rehash with old anchor, empty log, malformed entries, NaN, bool seq), an `audit_challenge.py` dry run on a synthetic chain, then the real snapshot/anchor (4/4). E also cross-checked the team's code lock: `templates/decision_impl.py` on main (c8d8cfdb...) differed from the hash in `lock_receipt.json` (6313979b...) by comments only, and the frozen file was restored via PR so the hashes match. Read-only database check before G02: 600 decisions, 3 tickets, 2 REJECTED, 620 audit entries.
