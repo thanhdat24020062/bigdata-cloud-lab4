@@ -1,0 +1,176 @@
+{
+  "candidates": [
+    {
+      "threshold": "1.50",
+      "metrics": {
+        "n": 600,
+        "eligible": 580,
+        "hold": 20,
+        "tp": 85,
+        "fp": 32,
+        "tn": 462,
+        "fn": 1,
+        "alerts": 117,
+        "positive_total": 90,
+        "held_positive": 4,
+        "precision": 0.7264957264957265,
+        "recall": 0.9883720930232558,
+        "f1": 0.8374384236453202,
+        "coverage": 0.9666666666666667,
+        "end_to_end_recall": 0.9444444444444444,
+        "cost_units": 804,
+        "cost": 80.4
+      }
+    },
+    {
+      "threshold": "2.00",
+      "metrics": {
+        "n": 600,
+        "eligible": 580,
+        "hold": 20,
+        "tp": 82,
+        "fp": 23,
+        "tn": 471,
+        "fn": 4,
+        "alerts": 105,
+        "positive_total": 90,
+        "held_positive": 4,
+        "precision": 0.780952380952381,
+        "recall": 0.9534883720930233,
+        "f1": 0.8586387434554974,
+        "coverage": 0.9666666666666667,
+        "end_to_end_recall": 0.9111111111111111,
+        "cost_units": 840,
+        "cost": 84.0
+      }
+    },
+    {
+      "threshold": "2.50",
+      "metrics": {
+        "n": 600,
+        "eligible": 580,
+        "hold": 20,
+        "tp": 61,
+        "fp": 16,
+        "tn": 478,
+        "fn": 25,
+        "alerts": 77,
+        "positive_total": 90,
+        "held_positive": 4,
+        "precision": 0.7922077922077922,
+        "recall": 0.7093023255813954,
+        "f1": 0.7484662576687117,
+        "coverage": 0.9666666666666667,
+        "end_to_end_recall": 0.6777777777777778,
+        "cost_units": 1764,
+        "cost": 176.4
+      }
+    },
+    {
+      "threshold": "3.00",
+      "metrics": {
+        "n": 600,
+        "eligible": 580,
+        "hold": 20,
+        "tp": 47,
+        "fp": 10,
+        "tn": 484,
+        "fn": 39,
+        "alerts": 57,
+        "positive_total": 90,
+        "held_positive": 4,
+        "precision": 0.8245614035087719,
+        "recall": 0.5465116279069767,
+        "f1": 0.6573426573426573,
+        "coverage": 0.9666666666666667,
+        "end_to_end_recall": 0.5222222222222223,
+        "cost_units": 2364,
+        "cost": 236.4
+      }
+    },
+    {
+      "threshold": "3.50",
+      "metrics": {
+        "n": 600,
+        "eligible": 580,
+        "hold": 20,
+        "tp": 27,
+        "fp": 4,
+        "tn": 490,
+        "fn": 59,
+        "alerts": 31,
+        "positive_total": 90,
+        "held_positive": 4,
+        "precision": 0.8709677419354839,
+        "recall": 0.313953488372093,
+        "f1": 0.46153846153846156,
+        "coverage": 0.9666666666666667,
+        "end_to_end_recall": 0.3,
+        "cost_units": 3252,
+        "cost": 325.2
+      }
+    }
+  ],
+  "selected": {
+    "threshold": "1.50",
+    "metrics": {
+      "n": 600,
+      "eligible": 580,
+      "hold": 20,
+      "tp": 85,
+      "fp": 32,
+      "tn": 462,
+      "fn": 1,
+      "alerts": 117,
+      "positive_total": 90,
+      "held_positive": 4,
+      "precision": 0.7264957264957265,
+      "recall": 0.9883720930232558,
+      "f1": 0.8374384236453202,
+      "coverage": 0.9666666666666667,
+      "end_to_end_recall": 0.9444444444444444,
+      "cost_units": 804,
+      "cost": 80.4
+    }
+  },
+  "comparators": {
+    "never_alert": {
+      "n": 600,
+      "eligible": 580,
+      "hold": 20,
+      "tp": 0,
+      "fp": 0,
+      "tn": 494,
+      "fn": 86,
+      "alerts": 0,
+      "positive_total": 90,
+      "held_positive": 4,
+      "precision": null,
+      "recall": 0.0,
+      "f1": 0.0,
+      "coverage": 0.9666666666666667,
+      "end_to_end_recall": 0.0,
+      "cost_units": 4500,
+      "cost": 450.0
+    },
+    "temperature_ge_30": {
+      "n": 600,
+      "eligible": 580,
+      "hold": 20,
+      "tp": 38,
+      "fp": 12,
+      "tn": 482,
+      "fn": 48,
+      "alerts": 50,
+      "positive_total": 90,
+      "held_positive": 4,
+      "precision": 0.76,
+      "recall": 0.4418604651162791,
+      "f1": 0.5588235294117647,
+      "coverage": 0.9666666666666667,
+      "end_to_end_recall": 0.4222222222222222,
+      "cost_units": 2820,
+      "cost": 282.0
+    }
+  }
+}

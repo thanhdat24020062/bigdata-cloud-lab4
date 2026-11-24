@@ -103,6 +103,31 @@ def fit_baseline(rows: list[dict], contract: dict) -> dict[str, dict]:
             }
     return result
 
+# ---------------------------------------------------------------------------
+# PHẦN C (Member C): score_event + evaluate
+# ---------------------------------------------------------------------------
+_VALID_ROUTES = ("ALERT", "NORMAL", "HOLD")
+
+
+def _hold(reason: str, score=None) -> dict:
+    return {"score": score, "route": "HOLD", "reason": reason}
+
+
+def _parse_temperature(value, t_min: Decimal, t_max: Decimal):
+    """Trả về Decimal hợp lệ, hoặc None nếu không parse được / NaN / Inf / ngoài [t_min, t_max]."""
+    if value is None or isinstance(value, bool):
+        return None
+    try:
+        temperature = Decimal(str(value).strip())
+    except (InvalidOperation, ValueError, TypeError):
+        return None
+    if not temperature.is_finite():
+        return None
+    if temperature < t_min or temperature > t_max:
+        return None
+    return temperature
+
+
 def score_event(event: dict, baseline: dict, threshold: str, contract: dict) -> dict:
     """Score a single observation and route it to HOLD, ALERT, or NORMAL.
 
@@ -117,7 +142,49 @@ def score_event(event: dict, baseline: dict, threshold: str, contract: dict) -> 
         5. Fresh event with Decimal(score_str) >= Decimal(str(threshold)) -> {"score": score_str, "route": "ALERT", "reason": "THRESHOLD"}
         6. Otherwise -> {"score": score_str, "route": "NORMAL", "reason": "BELOW_THRESHOLD"}
     """
-    raise NotImplementedError("T2: implement score_event")
+    # Hằng số lấy từ contract (không gõ cứng)
+    min_rows = int(contract["min_baseline_rows"])
+    late_limit = int(contract["late_limit_seconds"])
+    places = int(contract["score_decimal_places"])
+    t_min = Decimal(str(contract["min_temperature_c"]))
+    t_max = Decimal(str(contract["max_temperature_c"]))
+
+    # Step 1: baseline của sensor phải tồn tại và đủ n >= 30
+    stats = baseline.get(event.get("sensor_id"))
+    if not stats or int(stats.get("n", 0)) < min_rows:
+        return _hold("INSUFFICIENT_BASELINE")
+
+    # Step 2: nhiệt độ phải parse được, hữu hạn, nằm trong [-30, 60]
+    temperature = _parse_temperature(event.get("temperature_c"), t_min, t_max)
+    if temperature is None:
+        return _hold("INVALID_VALUE")
+
+    # Compute: score = |temp - median| / scale, làm tròn ROUND_HALF_UP 6 chữ số
+    with localcontext() as ctx:
+        ctx.prec = 50
+        raw = abs(temperature - Decimal(stats["median_c"])) / Decimal(stats["scale_c"])
+        score_str = _fmt(raw, places)
+
+    # Step 3: trễ quá 900s -> HOLD nhưng VẪN giữ score.
+    # Timestamp hỏng => không chứng minh được là kịp thời -> cũng HOLD (an toàn).
+    try:
+        event_time = _parse_utc(event.get("event_time_utc"), "event_time_utc")
+        ingest_time = _parse_utc(event.get("ingest_time_utc"), "ingest_time_utc")
+        lag_seconds = (ingest_time - event_time).total_seconds()
+    except ValueError:
+        return _hold("LATE_FOR_ACTION", score_str)
+    if lag_seconds > late_limit:
+        return _hold("LATE_FOR_ACTION", score_str)
+
+    # Step 4 / 5: so sánh Decimal sau khi đã làm tròn (score >= threshold -> ALERT)
+    if Decimal(score_str) >= Decimal(str(threshold)):
+        return {"score": score_str, "route": "ALERT", "reason": "THRESHOLD"}
+    return {"score": score_str, "route": "NORMAL", "reason": "BELOW_THRESHOLD"}
+
+
+def _ratio(numerator: int, denominator: int):
+    """Tỷ lệ dạng float; mẫu số = 0 -> None."""
+    return None if denominator == 0 else numerator / denominator
 
 
 def evaluate(predictions: list[dict], labels: dict[str, int], contract: dict) -> dict:
@@ -135,7 +202,70 @@ def evaluate(predictions: list[dict], labels: dict[str, int], contract: dict) ->
         - Include held_positive in positive_total for end_to_end_recall = tp / positive_total.
         - cost_units = 50*fn + 10*fp + 2*alerts + 10*hold; cost = cost_units / 10.
     """
-    raise NotImplementedError("T2: implement evaluate")
+    # 1) Kiểm tra đầu vào
+    record_ids = [p.get("record_id") for p in predictions]
+    if len(set(record_ids)) != len(record_ids):
+        raise ValueError("duplicate record_id in predictions")
+    if set(record_ids) != set(labels.keys()):
+        raise ValueError("prediction record_ids do not match label keys 1-to-1")
+    for record_id, label in labels.items():
+        if isinstance(label, bool) or label not in (0, 1):
+            raise ValueError(f"label for {record_id} is not 0/1: {label!r}")
+
+    # 2) Đếm
+    tp = fp = tn = fn = hold = held_positive = 0
+    for pred in predictions:
+        route = pred.get("route")
+        if route not in _VALID_ROUTES:
+            raise ValueError(f"unknown route {route!r} for {pred.get('record_id')}")
+        positive = labels[pred["record_id"]] == 1
+        if route == "HOLD":
+            hold += 1
+            held_positive += int(positive)
+        elif route == "ALERT":
+            if positive:
+                tp += 1
+            else:
+                fp += 1
+        else:  # NORMAL
+            if positive:
+                fn += 1
+            else:
+                tn += 1
+
+    n = len(predictions)
+    eligible = tp + fp + tn + fn
+    alerts = tp + fp
+    positive_total = tp + fn + held_positive  # mọi dòng nhãn 1, kể cả bị HOLD
+
+    # 3) Chi phí theo trọng số trong contract
+    weights = contract["cost_units"]
+    cost_units = (
+        int(weights["false_negative"]) * fn
+        + int(weights["false_positive"]) * fp
+        + int(weights["alert_review"]) * alerts
+        + int(weights["hold_review"]) * hold
+    )
+
+    return {
+        "n": n,
+        "eligible": eligible,
+        "hold": hold,
+        "tp": tp,
+        "fp": fp,
+        "tn": tn,
+        "fn": fn,
+        "alerts": alerts,
+        "positive_total": positive_total,
+        "held_positive": held_positive,
+        "precision": _ratio(tp, tp + fp),
+        "recall": _ratio(tp, tp + fn),  # Eligible Recall (chỉ ALERT/NORMAL)
+        "f1": _ratio(2 * tp, 2 * tp + fp + fn),
+        "coverage": _ratio(eligible, n),
+        "end_to_end_recall": _ratio(tp, positive_total),
+        "cost_units": cost_units,
+        "cost": cost_units / int(contract["cost_display_divisor"]),
+    }
 
 
 def make_action_key(team_id: str, event: dict, policy_id: str) -> str:

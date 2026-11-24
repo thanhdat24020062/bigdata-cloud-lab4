@@ -1,0 +1,4202 @@
+[
+  {
+    "record_id": "L4V000001",
+    "site": "zone-1",
+    "score": "4.697828",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000002",
+    "site": "zone-1",
+    "score": "0.219209",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000003",
+    "site": "zone-1",
+    "score": "0.165250",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000004",
+    "site": "zone-1",
+    "score": "1.123027",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000005",
+    "site": "zone-1",
+    "score": "3.568056",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000006",
+    "site": "zone-2",
+    "score": "2.215702",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000007",
+    "site": "zone-2",
+    "score": "0.185485",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000008",
+    "site": "zone-2",
+    "score": "0.863348",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000009",
+    "site": "zone-2",
+    "score": "0.023607",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000010",
+    "site": "zone-2",
+    "score": "0.155133",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000011",
+    "site": "zone-3",
+    "score": "1.119655",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000012",
+    "site": "zone-3",
+    "score": "0.596924",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000013",
+    "site": "zone-3",
+    "score": "0.080939",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000014",
+    "site": "zone-3",
+    "score": "0.057332",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000015",
+    "site": "zone-3",
+    "score": "0.515985",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000016",
+    "site": "zone-4",
+    "score": "0.074194",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000017",
+    "site": "zone-4",
+    "score": "0.064077",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000018",
+    "site": "zone-4",
+    "score": "0.832996",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000019",
+    "site": "zone-4",
+    "score": "0.559827",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000020",
+    "site": "zone-4",
+    "score": "0.816134",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000021",
+    "site": "zone-1",
+    "score": "0.060704",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000022",
+    "site": "zone-1",
+    "score": "0.239444",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000023",
+    "site": "zone-1",
+    "score": "0.323756",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000024",
+    "site": "zone-1",
+    "score": "0.064077",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000025",
+    "site": "zone-1",
+    "score": "0.131526",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000026",
+    "site": "zone-2",
+    "score": "0.087684",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000027",
+    "site": "zone-2",
+    "score": "0.799272",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000028",
+    "site": "zone-2",
+    "score": "2.431539",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000029",
+    "site": "zone-2",
+    "score": "1.089303",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000030",
+    "site": "zone-2",
+    "score": "1.854850",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000031",
+    "site": "zone-3",
+    "score": "0.111291",
+    "route": "HOLD",
+    "reason": "LATE_FOR_ACTION"
+  },
+  {
+    "record_id": "L4V000032",
+    "site": "zone-3",
+    "score": "2.171860",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000033",
+    "site": "zone-3",
+    "score": "0.772292",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000034",
+    "site": "zone-3",
+    "score": "0.016862",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000035",
+    "site": "zone-3",
+    "score": "0.984757",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000036",
+    "site": "zone-4",
+    "score": "0.421557",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000037",
+    "site": "zone-4",
+    "score": "0.569945",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000038",
+    "site": "zone-4",
+    "score": "0.418184",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000039",
+    "site": "zone-4",
+    "score": "3.372454",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000040",
+    "site": "zone-4",
+    "score": "2.033590",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000041",
+    "site": "zone-1",
+    "score": "1.379334",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000042",
+    "site": "zone-1",
+    "score": "0.171995",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000043",
+    "site": "zone-1",
+    "score": "0.600297",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000044",
+    "site": "zone-1",
+    "score": "0.185485",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000045",
+    "site": "zone-1",
+    "score": "0.354108",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000046",
+    "site": "zone-2",
+    "score": "2.350600",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000047",
+    "site": "zone-2",
+    "score": "0.077566",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000048",
+    "site": "zone-2",
+    "score": "0.313638",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000049",
+    "site": "zone-2",
+    "score": "0.556455",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000050",
+    "site": "zone-2",
+    "score": "1.203966",
+    "route": "HOLD",
+    "reason": "LATE_FOR_ACTION"
+  },
+  {
+    "record_id": "L4V000051",
+    "site": "zone-3",
+    "score": "0.586807",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000052",
+    "site": "zone-3",
+    "score": "0.276541",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000053",
+    "site": "zone-3",
+    "score": "1.180359",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000054",
+    "site": "zone-3",
+    "score": "0.249562",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000055",
+    "site": "zone-3",
+    "score": "0.310266",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000056",
+    "site": "zone-4",
+    "score": "0.762175",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000057",
+    "site": "zone-4",
+    "score": "0.114663",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000058",
+    "site": "zone-4",
+    "score": "4.785512",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000059",
+    "site": "zone-4",
+    "score": "1.301767",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000060",
+    "site": "zone-4",
+    "score": "3.291515",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000061",
+    "site": "zone-1",
+    "score": "0.225954",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000062",
+    "site": "zone-1",
+    "score": "1.220828",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000063",
+    "site": "zone-1",
+    "score": "0.576690",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000064",
+    "site": "zone-1",
+    "score": "0.397950",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000065",
+    "site": "zone-1",
+    "score": "1.062323",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000066",
+    "site": "zone-2",
+    "score": "0.111291",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000067",
+    "site": "zone-2",
+    "score": "0.687981",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000068",
+    "site": "zone-2",
+    "score": "3.136382",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000069",
+    "site": "zone-2",
+    "score": "0.478888",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000070",
+    "site": "zone-2",
+    "score": "0.182113",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000071",
+    "site": "zone-3",
+    "score": "0.064077",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000072",
+    "site": "zone-3",
+    "score": "0.745312",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000073",
+    "site": "zone-3",
+    "score": "4.323486",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000074",
+    "site": "zone-3",
+    "score": "1.004991",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000075",
+    "site": "zone-3",
+    "score": "0.131526",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000076",
+    "site": "zone-4",
+    "score": "0.310266",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000077",
+    "site": "zone-4",
+    "score": "0.542965",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000078",
+    "site": "zone-4",
+    "score": "0.610414",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000079",
+    "site": "zone-4",
+    "score": "0.317011",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000080",
+    "site": "zone-4",
+    "score": "1.446783",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000081",
+    "site": "zone-1",
+    "score": "0.313638",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000082",
+    "site": "zone-1",
+    "score": "4.070552",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000083",
+    "site": "zone-1",
+    "score": "0.951032",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000084",
+    "site": "zone-1",
+    "score": "0.293403",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000085",
+    "site": "zone-1",
+    "score": "0.499123",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000086",
+    "site": "zone-2",
+    "score": "3.466883",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000087",
+    "site": "zone-2",
+    "score": "2.640631",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000088",
+    "site": "zone-2",
+    "score": "3.527587",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000089",
+    "site": "zone-2",
+    "score": "0.674491",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000090",
+    "site": "zone-2",
+    "score": "0.323756",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000091",
+    "site": "zone-3",
+    "score": "0.779037",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000092",
+    "site": "zone-3",
+    "score": "0.047214",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000093",
+    "site": "zone-3",
+    "score": "3.389316",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000094",
+    "site": "zone-3",
+    "score": "2.033590",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000095",
+    "site": "zone-3",
+    "score": "0.222582",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000096",
+    "site": "zone-4",
+    "score": "3.763658",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000097",
+    "site": "zone-4",
+    "score": "0.623904",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000098",
+    "site": "zone-4",
+    "score": "0.522730",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000099",
+    "site": "zone-4",
+    "score": "0.569945",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000100",
+    "site": "zone-4",
+    "score": "0.468771",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000101",
+    "site": "zone-1",
+    "score": "0.269796",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000102",
+    "site": "zone-1",
+    "score": "0.310266",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000103",
+    "site": "zone-1",
+    "score": "4.279644",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000104",
+    "site": "zone-1",
+    "score": "0.050587",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000105",
+    "site": "zone-1",
+    "score": "0.080939",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000106",
+    "site": "zone-2",
+    "score": "0.428302",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000107",
+    "site": "zone-2",
+    "score": "0.053959",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000108",
+    "site": "zone-2",
+    "score": "0.886955",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000109",
+    "site": "zone-2",
+    "score": "1.126400",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000110",
+    "site": "zone-2",
+    "score": "1.429920",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000111",
+    "site": "zone-3",
+    "score": "0.107919",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000112",
+    "site": "zone-3",
+    "score": "0.350735",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000113",
+    "site": "zone-3",
+    "score": "0.623904",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000114",
+    "site": "zone-3",
+    "score": "0.505868",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000115",
+    "site": "zone-3",
+    "score": "1.311885",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000116",
+    "site": "zone-4",
+    "score": "1.618778",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000117",
+    "site": "zone-4",
+    "score": "2.222447",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000118",
+    "site": "zone-4",
+    "score": "0.232699",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000119",
+    "site": "zone-4",
+    "score": "0.768919",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000120",
+    "site": "zone-4",
+    "score": "0.728450",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000121",
+    "site": "zone-1",
+    "score": "2.856468",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000122",
+    "site": "zone-1",
+    "score": "2.896938",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000123",
+    "site": "zone-1",
+    "score": "0.016862",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000124",
+    "site": "zone-1",
+    "score": "0.077566",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000125",
+    "site": "zone-1",
+    "score": "0.620531",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000126",
+    "site": "zone-2",
+    "score": "0.917307",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000127",
+    "site": "zone-2",
+    "score": "1.851477",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000128",
+    "site": "zone-2",
+    "score": "0.853231",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000129",
+    "site": "zone-2",
+    "score": "0.064077",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000130",
+    "site": "zone-2",
+    "score": "0.246189",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000131",
+    "site": "zone-3",
+    "score": "0.003372",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000132",
+    "site": "zone-3",
+    "score": "0.141643",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000133",
+    "site": "zone-3",
+    "score": "0.404694",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000134",
+    "site": "zone-3",
+    "score": "0.249562",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000135",
+    "site": "zone-3",
+    "score": "0.435047",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000136",
+    "site": "zone-4",
+    "score": "0.040469",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000137",
+    "site": "zone-4",
+    "score": "0.408067",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000138",
+    "site": "zone-4",
+    "score": "1.797518",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000139",
+    "site": "zone-4",
+    "score": "0.475516",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000140",
+    "site": "zone-4",
+    "score": "0.171995",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000141",
+    "site": "zone-1",
+    "score": "0.006745",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000142",
+    "site": "zone-1",
+    "score": "4.154863",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000143",
+    "site": "zone-1",
+    "score": "1.028598",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000144",
+    "site": "zone-1",
+    "score": "0.586807",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000145",
+    "site": "zone-1",
+    "score": "0.718333",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000146",
+    "site": "zone-2",
+    "score": "0.286659",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000147",
+    "site": "zone-2",
+    "score": "0.806016",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000148",
+    "site": "zone-2",
+    "score": "4.009848",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000149",
+    "site": "zone-2",
+    "score": "0.634021",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000150",
+    "site": "zone-2",
+    "score": "2.360718",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000151",
+    "site": "zone-3",
+    "score": "0.337245",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000152",
+    "site": "zone-3",
+    "score": "0.445164",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000153",
+    "site": "zone-3",
+    "score": "0.576690",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000154",
+    "site": "zone-3",
+    "score": "0.195602",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000155",
+    "site": "zone-3",
+    "score": "0.343990",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000156",
+    "site": "zone-4",
+    "score": "4.191960",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000157",
+    "site": "zone-4",
+    "score": "0.030352",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000158",
+    "site": "zone-4",
+    "score": "0.043842",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000159",
+    "site": "zone-4",
+    "score": "0.573317",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000160",
+    "site": "zone-4",
+    "score": "0.462026",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000161",
+    "site": "zone-1",
+    "score": "0.070822",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000162",
+    "site": "zone-1",
+    "score": "4.353838",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000163",
+    "site": "zone-1",
+    "score": "0.458654",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000164",
+    "site": "zone-1",
+    "score": "0.219209",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000165",
+    "site": "zone-1",
+    "score": "0.128153",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000166",
+    "site": "zone-2",
+    "score": "0.030352",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000167",
+    "site": "zone-2",
+    "score": "0.384460",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000168",
+    "site": "zone-2",
+    "score": "0.327128",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000169",
+    "site": "zone-2",
+    "score": "0.192230",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000170",
+    "site": "zone-2",
+    "score": "0.000000",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000171",
+    "site": "zone-3",
+    "score": "0.714960",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000172",
+    "site": "zone-3",
+    "score": "2.306758",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000173",
+    "site": "zone-3",
+    "score": "2.472009",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000174",
+    "site": "zone-3",
+    "score": "0.903818",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000175",
+    "site": "zone-3",
+    "score": "0.145016",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000176",
+    "site": "zone-4",
+    "score": "0.553082",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000177",
+    "site": "zone-4",
+    "score": "0.364225",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000178",
+    "site": "zone-4",
+    "score": "0.569945",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000179",
+    "site": "zone-4",
+    "score": "0.954404",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000180",
+    "site": "zone-4",
+    "score": "1.328747",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000181",
+    "site": "zone-1",
+    "score": "0.296776",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000182",
+    "site": "zone-1",
+    "score": "1.072440",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000183",
+    "site": "zone-1",
+    "score": "0.266424",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000184",
+    "site": "zone-1",
+    "score": "0.984757",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000185",
+    "site": "zone-1",
+    "score": "0.515985",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000186",
+    "site": "zone-2",
+    "score": "0.198975",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000187",
+    "site": "zone-2",
+    "score": "0.428302",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000188",
+    "site": "zone-2",
+    "score": "1.554701",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000189",
+    "site": "zone-2",
+    "score": "0.408067",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000190",
+    "site": "zone-2",
+    "score": "2.883448",
+    "route": "HOLD",
+    "reason": "LATE_FOR_ACTION"
+  },
+  {
+    "record_id": "L4V000191",
+    "site": "zone-3",
+    "score": "0.236072",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000192",
+    "site": "zone-3",
+    "score": "2.138136",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000193",
+    "site": "zone-3",
+    "score": "0.741940",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000194",
+    "site": "zone-3",
+    "score": "2.124646",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000195",
+    "site": "zone-3",
+    "score": "0.249562",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000196",
+    "site": "zone-4",
+    "score": "0.070822",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000197",
+    "site": "zone-4",
+    "score": "0.701470",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000198",
+    "site": "zone-4",
+    "score": "0.539593",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000199",
+    "site": "zone-4",
+    "score": "0.539593",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000200",
+    "site": "zone-4",
+    "score": "0.677863",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000201",
+    "site": "zone-1",
+    "score": "0.293403",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000202",
+    "site": "zone-1",
+    "score": "3.170107",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000203",
+    "site": "zone-1",
+    "score": "0.020235",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000204",
+    "site": "zone-1",
+    "score": "3.355592",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000205",
+    "site": "zone-1",
+    "score": "0.121408",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000206",
+    "site": "zone-2",
+    "score": "1.507487",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000207",
+    "site": "zone-2",
+    "score": "0.657628",
+    "route": "HOLD",
+    "reason": "LATE_FOR_ACTION"
+  },
+  {
+    "record_id": "L4V000208",
+    "site": "zone-2",
+    "score": "0.485633",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000209",
+    "site": "zone-2",
+    "score": "0.310266",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000210",
+    "site": "zone-2",
+    "score": "0.279914",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000211",
+    "site": "zone-3",
+    "score": "0.006745",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000212",
+    "site": "zone-3",
+    "score": "3.025091",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000213",
+    "site": "zone-3",
+    "score": "2.805882",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000214",
+    "site": "zone-3",
+    "score": "1.703089",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000215",
+    "site": "zone-3",
+    "score": "2.414677",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000216",
+    "site": "zone-4",
+    "score": "0.630649",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000217",
+    "site": "zone-4",
+    "score": "0.748685",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000218",
+    "site": "zone-4",
+    "score": "0.596924",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000219",
+    "site": "zone-4",
+    "score": "0.023607",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000220",
+    "site": "zone-4",
+    "score": "0.293403",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000221",
+    "site": "zone-1",
+    "score": "0.408067",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000222",
+    "site": "zone-1",
+    "score": "0.101174",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000223",
+    "site": "zone-1",
+    "score": "2.128018",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000224",
+    "site": "zone-1",
+    "score": "0.013490",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000225",
+    "site": "zone-1",
+    "score": "0.141643",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000226",
+    "site": "zone-2",
+    "score": "0.242817",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000227",
+    "site": "zone-2",
+    "score": "4.070552",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000228",
+    "site": "zone-2",
+    "score": "0.101174",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000229",
+    "site": "zone-2",
+    "score": "0.070822",
+    "route": "HOLD",
+    "reason": "LATE_FOR_ACTION"
+  },
+  {
+    "record_id": "L4V000230",
+    "site": "zone-2",
+    "score": "3.156617",
+    "route": "HOLD",
+    "reason": "LATE_FOR_ACTION"
+  },
+  {
+    "record_id": "L4V000231",
+    "site": "zone-3",
+    "score": "0.229327",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000232",
+    "site": "zone-3",
+    "score": "0.323756",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000233",
+    "site": "zone-3",
+    "score": "1.099420",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000234",
+    "site": "zone-3",
+    "score": "3.173479",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000235",
+    "site": "zone-3",
+    "score": "0.222582",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000236",
+    "site": "zone-4",
+    "score": "0.077566",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000237",
+    "site": "zone-4",
+    "score": "0.364225",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000238",
+    "site": "zone-4",
+    "score": "0.418184",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000239",
+    "site": "zone-4",
+    "score": "0.276541",
+    "route": "HOLD",
+    "reason": "LATE_FOR_ACTION"
+  },
+  {
+    "record_id": "L4V000240",
+    "site": "zone-4",
+    "score": "0.175368",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000241",
+    "site": "zone-1",
+    "score": "0.236072",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000242",
+    "site": "zone-1",
+    "score": "0.468771",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000243",
+    "site": "zone-1",
+    "score": "0.502496",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000244",
+    "site": "zone-1",
+    "score": "0.192230",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000245",
+    "site": "zone-1",
+    "score": "0.806016",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000246",
+    "site": "zone-2",
+    "score": "0.121408",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000247",
+    "site": "zone-2",
+    "score": "0.266424",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000248",
+    "site": "zone-2",
+    "score": "0.222582",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000249",
+    "site": "zone-2",
+    "score": "0.421557",
+    "route": "HOLD",
+    "reason": "LATE_FOR_ACTION"
+  },
+  {
+    "record_id": "L4V000250",
+    "site": "zone-2",
+    "score": "0.310266",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000251",
+    "site": "zone-3",
+    "score": "0.232699",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000252",
+    "site": "zone-3",
+    "score": "0.364225",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000253",
+    "site": "zone-3",
+    "score": "0.279914",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000254",
+    "site": "zone-3",
+    "score": "0.897073",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000255",
+    "site": "zone-3",
+    "score": "0.435047",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000256",
+    "site": "zone-4",
+    "score": "0.462026",
+    "route": "HOLD",
+    "reason": "LATE_FOR_ACTION"
+  },
+  {
+    "record_id": "L4V000257",
+    "site": "zone-4",
+    "score": "3.628760",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000258",
+    "site": "zone-4",
+    "score": "0.421557",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000259",
+    "site": "zone-4",
+    "score": "0.252934",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000260",
+    "site": "zone-4",
+    "score": "0.957777",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000261",
+    "site": "zone-1",
+    "score": "2.961014",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000262",
+    "site": "zone-1",
+    "score": "0.215837",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000263",
+    "site": "zone-1",
+    "score": "3.217321",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000264",
+    "site": "zone-1",
+    "score": "0.134898",
+    "route": "HOLD",
+    "reason": "LATE_FOR_ACTION"
+  },
+  {
+    "record_id": "L4V000265",
+    "site": "zone-1",
+    "score": "0.239444",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000266",
+    "site": "zone-2",
+    "score": "0.249562",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000267",
+    "site": "zone-2",
+    "score": "0.532848",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000268",
+    "site": "zone-2",
+    "score": "0.134898",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000269",
+    "site": "zone-2",
+    "score": "0.441791",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000270",
+    "site": "zone-2",
+    "score": "0.637394",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000271",
+    "site": "zone-3",
+    "score": "0.438419",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000272",
+    "site": "zone-3",
+    "score": "2.998111",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000273",
+    "site": "zone-3",
+    "score": "0.030352",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000274",
+    "site": "zone-3",
+    "score": "1.244435",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000275",
+    "site": "zone-3",
+    "score": "0.023607",
+    "route": "HOLD",
+    "reason": "LATE_FOR_ACTION"
+  },
+  {
+    "record_id": "L4V000276",
+    "site": "zone-4",
+    "score": "0.148388",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000277",
+    "site": "zone-4",
+    "score": "0.091056",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000278",
+    "site": "zone-4",
+    "score": "0.225954",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000279",
+    "site": "zone-4",
+    "score": "0.343990",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000280",
+    "site": "zone-4",
+    "score": "0.489006",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000281",
+    "site": "zone-1",
+    "score": "3.153244",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000282",
+    "site": "zone-1",
+    "score": "0.091056",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000283",
+    "site": "zone-1",
+    "score": "1.365844",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000284",
+    "site": "zone-1",
+    "score": "0.684608",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000285",
+    "site": "zone-1",
+    "score": "0.114663",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000286",
+    "site": "zone-2",
+    "score": "0.064077",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000287",
+    "site": "zone-2",
+    "score": "0.310266",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000288",
+    "site": "zone-2",
+    "score": "1.136517",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000289",
+    "site": "zone-2",
+    "score": "0.944287",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000290",
+    "site": "zone-2",
+    "score": "0.080939",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000291",
+    "site": "zone-3",
+    "score": "0.559827",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000292",
+    "site": "zone-3",
+    "score": "0.735195",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000293",
+    "site": "zone-3",
+    "score": "1.470390",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000294",
+    "site": "zone-3",
+    "score": "0.512613",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000295",
+    "site": "zone-3",
+    "score": "0.043842",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000296",
+    "site": "zone-4",
+    "score": "0.256306",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000297",
+    "site": "zone-4",
+    "score": "0.354108",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000298",
+    "site": "zone-4",
+    "score": "2.067314",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000299",
+    "site": "zone-4",
+    "score": "0.084311",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000300",
+    "site": "zone-4",
+    "score": "0.515985",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000301",
+    "site": "zone-1",
+    "score": "0.236072",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000302",
+    "site": "zone-1",
+    "score": "0.266424",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000303",
+    "site": "zone-1",
+    "score": "0.627276",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000304",
+    "site": "zone-1",
+    "score": "0.519358",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000305",
+    "site": "zone-1",
+    "score": "0.846486",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000306",
+    "site": "zone-2",
+    "score": "0.020235",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000307",
+    "site": "zone-2",
+    "score": "0.424929",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000308",
+    "site": "zone-2",
+    "score": "1.001619",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000309",
+    "site": "zone-2",
+    "score": "3.079050",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000310",
+    "site": "zone-2",
+    "score": "0.239444",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000311",
+    "site": "zone-3",
+    "score": "0.155133",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000312",
+    "site": "zone-3",
+    "score": "3.244301",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000313",
+    "site": "zone-3",
+    "score": "3.062188",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000314",
+    "site": "zone-3",
+    "score": "0.360853",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000315",
+    "site": "zone-3",
+    "score": "0.293403",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000316",
+    "site": "zone-4",
+    "score": "0.178740",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000317",
+    "site": "zone-4",
+    "score": "1.203966",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000318",
+    "site": "zone-4",
+    "score": "0.182113",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000319",
+    "site": "zone-4",
+    "score": "0.465399",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000320",
+    "site": "zone-4",
+    "score": "1.136517",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000321",
+    "site": "zone-1",
+    "score": "0.276541",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000322",
+    "site": "zone-1",
+    "score": "0.006745",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000323",
+    "site": "zone-1",
+    "score": "0.387832",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000324",
+    "site": "zone-1",
+    "score": "3.082423",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000325",
+    "site": "zone-1",
+    "score": "2.121273",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000326",
+    "site": "zone-2",
+    "score": "0.310266",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000327",
+    "site": "zone-2",
+    "score": "0.556455",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000328",
+    "site": "zone-2",
+    "score": "3.719817",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000329",
+    "site": "zone-2",
+    "score": "2.721570",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000330",
+    "site": "zone-2",
+    "score": "0.886955",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000331",
+    "site": "zone-3",
+    "score": "1.716579",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000332",
+    "site": "zone-3",
+    "score": "0.037097",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000333",
+    "site": "zone-3",
+    "score": "2.741805",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000334",
+    "site": "zone-3",
+    "score": "0.252934",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000335",
+    "site": "zone-3",
+    "score": "0.185485",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000336",
+    "site": "zone-4",
+    "score": "0.182113",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000337",
+    "site": "zone-4",
+    "score": "2.323621",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000338",
+    "site": "zone-4",
+    "score": "0.856603",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000339",
+    "site": "zone-4",
+    "score": "3.456765",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000340",
+    "site": "zone-4",
+    "score": "0.472144",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000341",
+    "site": "zone-1",
+    "score": "0.158505",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000342",
+    "site": "zone-1",
+    "score": "0.657628",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000343",
+    "site": "zone-1",
+    "score": "0.229327",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000344",
+    "site": "zone-1",
+    "score": "0.185485",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000345",
+    "site": "zone-1",
+    "score": "1.001619",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000346",
+    "site": "zone-2",
+    "score": "0.266424",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000347",
+    "site": "zone-2",
+    "score": "0.509241",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000348",
+    "site": "zone-2",
+    "score": "0.360853",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000349",
+    "site": "zone-2",
+    "score": "2.812626",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000350",
+    "site": "zone-2",
+    "score": "0.296776",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000351",
+    "site": "zone-3",
+    "score": "1.102792",
+    "route": "HOLD",
+    "reason": "LATE_FOR_ACTION"
+  },
+  {
+    "record_id": "L4V000352",
+    "site": "zone-3",
+    "score": "0.145016",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000353",
+    "site": "zone-3",
+    "score": "0.883583",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000354",
+    "site": "zone-3",
+    "score": "0.519358",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000355",
+    "site": "zone-3",
+    "score": "3.520842",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000356",
+    "site": "zone-4",
+    "score": "0.421557",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000357",
+    "site": "zone-4",
+    "score": "3.588291",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000358",
+    "site": "zone-4",
+    "score": "1.139889",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000359",
+    "site": "zone-4",
+    "score": "2.735060",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000360",
+    "site": "zone-4",
+    "score": "3.669230",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000361",
+    "site": "zone-1",
+    "score": "0.499123",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000362",
+    "site": "zone-1",
+    "score": "0.286659",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000363",
+    "site": "zone-1",
+    "score": "0.286659",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000364",
+    "site": "zone-1",
+    "score": "0.765547",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000365",
+    "site": "zone-1",
+    "score": "0.290031",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000366",
+    "site": "zone-2",
+    "score": "0.037097",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000367",
+    "site": "zone-2",
+    "score": "0.134898",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000368",
+    "site": "zone-2",
+    "score": "0.209092",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000369",
+    "site": "zone-2",
+    "score": "1.028598",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000370",
+    "site": "zone-2",
+    "score": "2.239309",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000371",
+    "site": "zone-3",
+    "score": "0.219209",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000372",
+    "site": "zone-3",
+    "score": "3.564684",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000373",
+    "site": "zone-3",
+    "score": "0.758802",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000374",
+    "site": "zone-3",
+    "score": "0.566572",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000375",
+    "site": "zone-3",
+    "score": "1.102792",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000376",
+    "site": "zone-4",
+    "score": "0.091056",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000377",
+    "site": "zone-4",
+    "score": "0.040469",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000378",
+    "site": "zone-4",
+    "score": "0.573317",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000379",
+    "site": "zone-4",
+    "score": "0.084311",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000380",
+    "site": "zone-4",
+    "score": "0.600297",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000381",
+    "site": "zone-1",
+    "score": "0.374342",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000382",
+    "site": "zone-1",
+    "score": "0.509241",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000383",
+    "site": "zone-1",
+    "score": "0.529475",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000384",
+    "site": "zone-1",
+    "score": "0.205720",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000385",
+    "site": "zone-1",
+    "score": "0.084311",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000386",
+    "site": "zone-2",
+    "score": "3.483745",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000387",
+    "site": "zone-2",
+    "score": "0.795899",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000388",
+    "site": "zone-2",
+    "score": "1.456900",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000389",
+    "site": "zone-2",
+    "score": "2.144881",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000390",
+    "site": "zone-2",
+    "score": "0.151760",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000391",
+    "site": "zone-3",
+    "score": "0.978012",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000392",
+    "site": "zone-3",
+    "score": "0.229327",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000393",
+    "site": "zone-3",
+    "score": "0.647511",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000394",
+    "site": "zone-3",
+    "score": "0.384460",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000395",
+    "site": "zone-3",
+    "score": "0.026980",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000396",
+    "site": "zone-4",
+    "score": "2.418049",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000397",
+    "site": "zone-4",
+    "score": "0.755430",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000398",
+    "site": "zone-4",
+    "score": "0.994874",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000399",
+    "site": "zone-4",
+    "score": "0.043842",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000400",
+    "site": "zone-4",
+    "score": "1.969513",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000401",
+    "site": "zone-1",
+    "score": "0.340618",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000402",
+    "site": "zone-1",
+    "score": "0.472144",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000403",
+    "site": "zone-1",
+    "score": "4.195333",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000404",
+    "site": "zone-1",
+    "score": "0.387832",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000405",
+    "site": "zone-1",
+    "score": "0.967894",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000406",
+    "site": "zone-2",
+    "score": "0.337245",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000407",
+    "site": "zone-2",
+    "score": "0.128153",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000408",
+    "site": "zone-2",
+    "score": "0.252934",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000409",
+    "site": "zone-2",
+    "score": "0.175368",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000410",
+    "site": "zone-2",
+    "score": "0.040469",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000411",
+    "site": "zone-3",
+    "score": "0.266424",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000412",
+    "site": "zone-3",
+    "score": "0.286659",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000413",
+    "site": "zone-3",
+    "score": "1.210711",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000414",
+    "site": "zone-3",
+    "score": "2.478754",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000415",
+    "site": "zone-3",
+    "score": "2.647376",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000416",
+    "site": "zone-4",
+    "score": "0.566572",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000417",
+    "site": "zone-4",
+    "score": "0.546338",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000418",
+    "site": "zone-4",
+    "score": "0.182113",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000419",
+    "site": "zone-4",
+    "score": "3.979495",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000420",
+    "site": "zone-4",
+    "score": "0.515985",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000421",
+    "site": "zone-1",
+    "score": "0.026980",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000422",
+    "site": "zone-1",
+    "score": "0.795899",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000423",
+    "site": "zone-1",
+    "score": "0.037097",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000424",
+    "site": "zone-1",
+    "score": "1.608660",
+    "route": "HOLD",
+    "reason": "LATE_FOR_ACTION"
+  },
+  {
+    "record_id": "L4V000425",
+    "site": "zone-1",
+    "score": "0.806016",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000426",
+    "site": "zone-2",
+    "score": "0.839741",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000427",
+    "site": "zone-2",
+    "score": "0.222582",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000428",
+    "site": "zone-2",
+    "score": "0.212465",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000429",
+    "site": "zone-2",
+    "score": "0.603669",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000430",
+    "site": "zone-2",
+    "score": "0.647511",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000431",
+    "site": "zone-3",
+    "score": "0.279914",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000432",
+    "site": "zone-3",
+    "score": "0.320383",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000433",
+    "site": "zone-3",
+    "score": "0.748685",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000434",
+    "site": "zone-3",
+    "score": "4.323486",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000435",
+    "site": "zone-3",
+    "score": "0.994874",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000436",
+    "site": "zone-4",
+    "score": "0.775664",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000437",
+    "site": "zone-4",
+    "score": "0.155133",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000438",
+    "site": "zone-4",
+    "score": "1.493997",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000439",
+    "site": "zone-4",
+    "score": "2.111156",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000440",
+    "site": "zone-4",
+    "score": "0.870093",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000441",
+    "site": "zone-1",
+    "score": "0.080939",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000442",
+    "site": "zone-1",
+    "score": "0.107919",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000443",
+    "site": "zone-1",
+    "score": "0.640766",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000444",
+    "site": "zone-1",
+    "score": "0.269796",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000445",
+    "site": "zone-1",
+    "score": "0.542965",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000446",
+    "site": "zone-2",
+    "score": "0.532848",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000447",
+    "site": "zone-2",
+    "score": "0.151760",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000448",
+    "site": "zone-2",
+    "score": "0.741940",
+    "route": "HOLD",
+    "reason": "LATE_FOR_ACTION"
+  },
+  {
+    "record_id": "L4V000449",
+    "site": "zone-2",
+    "score": "0.242817",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000450",
+    "site": "zone-2",
+    "score": "0.428302",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000451",
+    "site": "zone-3",
+    "score": "1.092675",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000452",
+    "site": "zone-3",
+    "score": "0.310266",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000453",
+    "site": "zone-3",
+    "score": "0.057332",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000454",
+    "site": "zone-3",
+    "score": "0.303521",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000455",
+    "site": "zone-3",
+    "score": "2.060569",
+    "route": "HOLD",
+    "reason": "LATE_FOR_ACTION"
+  },
+  {
+    "record_id": "L4V000456",
+    "site": "zone-4",
+    "score": "0.735195",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000457",
+    "site": "zone-4",
+    "score": "0.023607",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000458",
+    "site": "zone-4",
+    "score": "4.127883",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000459",
+    "site": "zone-4",
+    "score": "0.343990",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000460",
+    "site": "zone-4",
+    "score": "0.310266",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000461",
+    "site": "zone-1",
+    "score": "3.095913",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000462",
+    "site": "zone-1",
+    "score": "0.782409",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000463",
+    "site": "zone-1",
+    "score": "4.215567",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000464",
+    "site": "zone-1",
+    "score": "0.640766",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000465",
+    "site": "zone-1",
+    "score": "1.281532",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000466",
+    "site": "zone-2",
+    "score": "0.822879",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000467",
+    "site": "zone-2",
+    "score": "0.111291",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000468",
+    "site": "zone-2",
+    "score": "0.053959",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000469",
+    "site": "zone-2",
+    "score": "0.222582",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000470",
+    "site": "zone-2",
+    "score": "0.263051",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000471",
+    "site": "zone-3",
+    "score": "3.696209",
+    "route": "HOLD",
+    "reason": "LATE_FOR_ACTION"
+  },
+  {
+    "record_id": "L4V000472",
+    "site": "zone-3",
+    "score": "2.617024",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000473",
+    "site": "zone-3",
+    "score": "4.650614",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000474",
+    "site": "zone-3",
+    "score": "0.047214",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000475",
+    "site": "zone-3",
+    "score": "4.107649",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000476",
+    "site": "zone-4",
+    "score": "2.047079",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000477",
+    "site": "zone-4",
+    "score": "1.473762",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000478",
+    "site": "zone-4",
+    "score": "0.468771",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000479",
+    "site": "zone-4",
+    "score": "0.010117",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000480",
+    "site": "zone-4",
+    "score": "0.630649",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000481",
+    "site": "zone-1",
+    "score": "0.266424",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000482",
+    "site": "zone-1",
+    "score": "2.246054",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000483",
+    "site": "zone-1",
+    "score": "2.694591",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000484",
+    "site": "zone-1",
+    "score": "0.691353",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000485",
+    "site": "zone-1",
+    "score": "0.408067",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000486",
+    "site": "zone-2",
+    "score": "0.158505",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000487",
+    "site": "zone-2",
+    "score": "1.969513",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000488",
+    "site": "zone-2",
+    "score": "0.735195",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000489",
+    "site": "zone-2",
+    "score": "0.107919",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000490",
+    "site": "zone-2",
+    "score": "0.148388",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000491",
+    "site": "zone-3",
+    "score": "0.569945",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000492",
+    "site": "zone-3",
+    "score": "3.261163",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000493",
+    "site": "zone-3",
+    "score": "0.006745",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000494",
+    "site": "zone-3",
+    "score": "0.023607",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000495",
+    "site": "zone-3",
+    "score": "0.148388",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000496",
+    "site": "zone-4",
+    "score": "0.745312",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000497",
+    "site": "zone-4",
+    "score": "0.617159",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000498",
+    "site": "zone-4",
+    "score": "3.133010",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000499",
+    "site": "zone-4",
+    "score": "0.664373",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000500",
+    "site": "zone-4",
+    "score": "1.800890",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000501",
+    "site": "zone-1",
+    "score": "0.269796",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000502",
+    "site": "zone-1",
+    "score": "2.819371",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000503",
+    "site": "zone-1",
+    "score": "0.296776",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000504",
+    "site": "zone-1",
+    "score": "0.627276",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000505",
+    "site": "zone-1",
+    "score": "0.475516",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000506",
+    "site": "zone-2",
+    "score": "0.465399",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000507",
+    "site": "zone-2",
+    "score": "0.080939",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000508",
+    "site": "zone-2",
+    "score": "0.040469",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000509",
+    "site": "zone-2",
+    "score": "0.681236",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000510",
+    "site": "zone-2",
+    "score": "0.448536",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000511",
+    "site": "zone-3",
+    "score": "2.934035",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000512",
+    "site": "zone-3",
+    "score": "1.322002",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000513",
+    "site": "zone-3",
+    "score": "0.873466",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000514",
+    "site": "zone-3",
+    "score": "2.441657",
+    "route": "HOLD",
+    "reason": "LATE_FOR_ACTION"
+  },
+  {
+    "record_id": "L4V000515",
+    "site": "zone-3",
+    "score": "0.306893",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000516",
+    "site": "zone-4",
+    "score": "0.509241",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000517",
+    "site": "zone-4",
+    "score": "0.462026",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000518",
+    "site": "zone-4",
+    "score": "0.559827",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000519",
+    "site": "zone-4",
+    "score": "0.792527",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000520",
+    "site": "zone-4",
+    "score": "0.526103",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000521",
+    "site": "zone-1",
+    "score": "0.209092",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000522",
+    "site": "zone-1",
+    "score": "3.854715",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000523",
+    "site": "zone-1",
+    "score": "0.435047",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000524",
+    "site": "zone-1",
+    "score": "0.249562",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000525",
+    "site": "zone-1",
+    "score": "0.762175",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000526",
+    "site": "zone-2",
+    "score": "3.041953",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000527",
+    "site": "zone-2",
+    "score": "0.364225",
+    "route": "HOLD",
+    "reason": "LATE_FOR_ACTION"
+  },
+  {
+    "record_id": "L4V000528",
+    "site": "zone-2",
+    "score": "3.426413",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000529",
+    "site": "zone-2",
+    "score": "0.394577",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000530",
+    "site": "zone-2",
+    "score": "0.991501",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000531",
+    "site": "zone-3",
+    "score": "0.259679",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000532",
+    "site": "zone-3",
+    "score": "4.141373",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000533",
+    "site": "zone-3",
+    "score": "3.578173",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000534",
+    "site": "zone-3",
+    "score": "0.843113",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000535",
+    "site": "zone-3",
+    "score": "2.279779",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000536",
+    "site": "zone-4",
+    "score": "0.684608",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000537",
+    "site": "zone-4",
+    "score": "0.462026",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000538",
+    "site": "zone-4",
+    "score": "2.623769",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000539",
+    "site": "zone-4",
+    "score": "0.087684",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000540",
+    "site": "zone-4",
+    "score": "0.644139",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000541",
+    "site": "zone-1",
+    "score": "0.967894",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000542",
+    "site": "zone-1",
+    "score": "3.729934",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000543",
+    "site": "zone-1",
+    "score": "0.708215",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000544",
+    "site": "zone-1",
+    "score": "0.495751",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000545",
+    "site": "zone-1",
+    "score": "0.822879",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000546",
+    "site": "zone-2",
+    "score": "1.315257",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000547",
+    "site": "zone-2",
+    "score": "1.369216",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000548",
+    "site": "zone-2",
+    "score": "0.691353",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000549",
+    "site": "zone-2",
+    "score": "3.568056",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000550",
+    "site": "zone-2",
+    "score": "0.957777",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000551",
+    "site": "zone-3",
+    "score": "3.308377",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000552",
+    "site": "zone-3",
+    "score": "0.060704",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000553",
+    "site": "zone-3",
+    "score": "0.782409",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000554",
+    "site": "zone-3",
+    "score": "0.337245",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000555",
+    "site": "zone-3",
+    "score": "2.559692",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000556",
+    "site": "zone-4",
+    "score": "0.070822",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000557",
+    "site": "zone-4",
+    "score": "0.343990",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000558",
+    "site": "zone-4",
+    "score": "0.863348",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000559",
+    "site": "zone-4",
+    "score": "0.424929",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000560",
+    "site": "zone-4",
+    "score": "2.681101",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000561",
+    "site": "zone-1",
+    "score": "1.531094",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000562",
+    "site": "zone-1",
+    "score": "2.772157",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000563",
+    "site": "zone-1",
+    "score": "0.367597",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000564",
+    "site": "zone-1",
+    "score": "1.011736",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000565",
+    "site": "zone-1",
+    "score": "0.691353",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000566",
+    "site": "zone-2",
+    "score": "2.657494",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000567",
+    "site": "zone-2",
+    "score": "0.489006",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000568",
+    "site": "zone-2",
+    "score": "0.057332",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000569",
+    "site": "zone-2",
+    "score": "1.460272",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000570",
+    "site": "zone-2",
+    "score": "2.225820",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000571",
+    "site": "zone-3",
+    "score": "0.057332",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000572",
+    "site": "zone-3",
+    "score": "0.043842",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000573",
+    "site": "zone-3",
+    "score": "2.461891",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000574",
+    "site": "zone-3",
+    "score": "0.553082",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000575",
+    "site": "zone-3",
+    "score": "0.306893",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000576",
+    "site": "zone-4",
+    "score": "0.165250",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000577",
+    "site": "zone-4",
+    "score": "3.423041",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000578",
+    "site": "zone-4",
+    "score": "0.573317",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000579",
+    "site": "zone-4",
+    "score": "1.359099",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000580",
+    "site": "zone-4",
+    "score": "0.819506",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000581",
+    "site": "zone-1",
+    "score": "3.230811",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000582",
+    "site": "zone-1",
+    "score": "0.661001",
+    "route": "HOLD",
+    "reason": "LATE_FOR_ACTION"
+  },
+  {
+    "record_id": "L4V000583",
+    "site": "zone-1",
+    "score": "0.016862",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000584",
+    "site": "zone-1",
+    "score": "0.101174",
+    "route": "HOLD",
+    "reason": "LATE_FOR_ACTION"
+  },
+  {
+    "record_id": "L4V000585",
+    "site": "zone-1",
+    "score": "0.799272",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000586",
+    "site": "zone-2",
+    "score": "3.075678",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000587",
+    "site": "zone-2",
+    "score": "0.822879",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000588",
+    "site": "zone-2",
+    "score": "0.296776",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000589",
+    "site": "zone-2",
+    "score": "0.374342",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000590",
+    "site": "zone-2",
+    "score": "0.505868",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000591",
+    "site": "zone-3",
+    "score": "0.765547",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000592",
+    "site": "zone-3",
+    "score": "0.738567",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000593",
+    "site": "zone-3",
+    "score": "0.185485",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000594",
+    "site": "zone-3",
+    "score": "0.684608",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000595",
+    "site": "zone-3",
+    "score": "0.091056",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000596",
+    "site": "zone-4",
+    "score": "0.198975",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000597",
+    "site": "zone-4",
+    "score": "0.114663",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000598",
+    "site": "zone-4",
+    "score": "0.104546",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  },
+  {
+    "record_id": "L4V000599",
+    "site": "zone-4",
+    "score": "2.384325",
+    "route": "ALERT",
+    "reason": "THRESHOLD"
+  },
+  {
+    "record_id": "L4V000600",
+    "site": "zone-4",
+    "score": "0.542965",
+    "route": "NORMAL",
+    "reason": "BELOW_THRESHOLD"
+  }
+]
