@@ -1,0 +1,10 @@
+{
+  "probe": "nonalert-review",
+  "expected": 409,
+  "observed": 409,
+  "expected_error": "not pending; review is immutable",
+  "passed": true,
+  "response": {
+    "error": "not pending; review is immutable"
+  }
+}
