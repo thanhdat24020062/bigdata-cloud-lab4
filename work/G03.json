@@ -1,0 +1,10 @@
+{
+  "probe": "self-review",
+  "expected": 403,
+  "observed": 403,
+  "expected_error": "self approval prohibited",
+  "passed": true,
+  "response": {
+    "error": "self approval prohibited"
+  }
+}

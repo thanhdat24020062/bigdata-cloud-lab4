@@ -1,0 +1,18 @@
+{
+  "mode": "course-fallback",
+  "description": "Byte-identical post-batch-02 logical exports from the supplied Lab 3 TA reference, now inputs to Lab 4. Not live Delta snapshot evidence.",
+  "upstream_package": "Lab3-TA-Reference.zip",
+  "upstream_package_sha256": "7459f99392aa12f6ae654d9ffa54777ff0463727dabb83c475048e9743a04fdc",
+  "source_members": {
+    "silver_lab3.jsonl": "Lab3-TA-Reference/expected/silver_after_batch02.jsonl",
+    "gold_lab3.json": "Lab3-TA-Reference/expected/gold_after_batch02.json"
+  },
+  "silver_rows": 9710,
+  "gold_rows": 20,
+  "silver_sha256": "d0e76f8b3525282d09c71a2e813ec91abcad2440f6f3eeaf8b7cbc55d922162a",
+  "gold_sha256": "095c9b84ddcb2426f2a5cbbd7d46b0a35c579c7c609daba6021a7295cf5be8b4",
+  "fit_cutoff_utc": "2026-02-09T00:00:00Z",
+  "silver_delta_version": null,
+  "gold_delta_version": null,
+  "quality_caveat": "Retain known measurement uncertainty. Lab 2 QA agreement is not an operational incident label."
+}

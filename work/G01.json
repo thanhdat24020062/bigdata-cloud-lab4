@@ -1,0 +1,10 @@
+{
+  "probe": "bad-token",
+  "expected": 401,
+  "observed": 401,
+  "expected_error": "invalid credential",
+  "passed": true,
+  "response": {
+    "error": "invalid credential"
+  }
+}

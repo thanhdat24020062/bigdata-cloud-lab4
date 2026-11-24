@@ -1,0 +1,25 @@
+{
+  "verified": [
+    "data/event_sources/test_source.csv",
+    "data/event_sources/validation_source.csv",
+    "data/events/test/part-000.csv",
+    "data/events/test/part-001.csv",
+    "data/events/test/part-002.csv",
+    "data/events/validation.csv",
+    "data/labels/validation_labels.csv",
+    "data/upstream/gold_lab3.json",
+    "data/upstream/handoff.json",
+    "data/upstream/lab2_source_manifest.json",
+    "data/upstream/lab3_contract.json",
+    "data/upstream/sensors.csv",
+    "data/upstream/silver_lab3.jsonl",
+    "schemas/decision_contract.json",
+    "schemas/policy.schema.json"
+  ],
+  "trusted_manifest_sha256": "1a4a8475166bea72626ea3b4fc4fdf84b1681dac18f7fa58844b7e60b7fc806e",
+  "handoff_mode": "course-fallback",
+  "silver_rows": 9710,
+  "gold_rows": 20,
+  "history_max_event": "2026-02-06T01:40:00Z",
+  "history_max_ingest": "2026-02-06T01:41:00Z"
+}

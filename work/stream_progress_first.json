@@ -1,0 +1,122 @@
+[
+  {
+    "id": "30f8c805-821e-452c-8b1b-81f23a6df374",
+    "runId": "581d7a64-a9c6-4527-b9c2-872e06d8b478",
+    "name": null,
+    "timestamp": "2026-11-24T10:01:55.863Z",
+    "batchId": 0,
+    "batchDuration": 2322,
+    "durationMs": {
+      "triggerExecution": 2320,
+      "queryPlanning": 400,
+      "getBatch": 93,
+      "commitOffsets": 163,
+      "latestOffset": 74,
+      "addBatch": 1490,
+      "walCommit": 74
+    },
+    "eventTime": {},
+    "stateOperators": [],
+    "sources": [
+      {
+        "description": "FileStreamSource[file:/home/ubuntu/Lab4-Student-Starter/data/events/test]",
+        "startOffset": "None",
+        "endOffset": "{\"logOffset\":0}",
+        "latestOffset": "None",
+        "numInputRows": 200,
+        "inputRowsPerSecond": 0.0,
+        "processedRowsPerSecond": 86.13264427217915,
+        "metrics": {}
+      }
+    ],
+    "sink": {
+      "description": "ForeachBatchSink",
+      "numOutputRows": -1,
+      "metrics": {}
+    },
+    "numInputRows": 200,
+    "inputRowsPerSecond": 0.0,
+    "processedRowsPerSecond": 86.13264427217915,
+    "observedMetrics": {}
+  },
+  {
+    "id": "30f8c805-821e-452c-8b1b-81f23a6df374",
+    "runId": "581d7a64-a9c6-4527-b9c2-872e06d8b478",
+    "name": null,
+    "timestamp": "2026-11-24T10:01:58.206Z",
+    "batchId": 1,
+    "batchDuration": 539,
+    "durationMs": {
+      "triggerExecution": 539,
+      "queryPlanning": 17,
+      "getBatch": 20,
+      "commitOffsets": 49,
+      "latestOffset": 40,
+      "addBatch": 359,
+      "walCommit": 45
+    },
+    "eventTime": {},
+    "stateOperators": [],
+    "sources": [
+      {
+        "description": "FileStreamSource[file:/home/ubuntu/Lab4-Student-Starter/data/events/test]",
+        "startOffset": "{\"logOffset\":0}",
+        "endOffset": "{\"logOffset\":1}",
+        "latestOffset": "None",
+        "numInputRows": 200,
+        "inputRowsPerSecond": 85.36064874093043,
+        "processedRowsPerSecond": 371.05751391465674,
+        "metrics": {}
+      }
+    ],
+    "sink": {
+      "description": "ForeachBatchSink",
+      "numOutputRows": -1,
+      "metrics": {}
+    },
+    "numInputRows": 200,
+    "inputRowsPerSecond": 85.36064874093043,
+    "processedRowsPerSecond": 371.05751391465674,
+    "observedMetrics": {}
+  },
+  {
+    "id": "30f8c805-821e-452c-8b1b-81f23a6df374",
+    "runId": "581d7a64-a9c6-4527-b9c2-872e06d8b478",
+    "name": null,
+    "timestamp": "2026-11-24T10:01:58.747Z",
+    "batchId": 2,
+    "batchDuration": 513,
+    "durationMs": {
+      "triggerExecution": 512,
+      "queryPlanning": 12,
+      "getBatch": 15,
+      "commitOffsets": 71,
+      "latestOffset": 41,
+      "addBatch": 321,
+      "walCommit": 47
+    },
+    "eventTime": {},
+    "stateOperators": [],
+    "sources": [
+      {
+        "description": "FileStreamSource[file:/home/ubuntu/Lab4-Student-Starter/data/events/test]",
+        "startOffset": "{\"logOffset\":1}",
+        "endOffset": "{\"logOffset\":2}",
+        "latestOffset": "None",
+        "numInputRows": 200,
+        "inputRowsPerSecond": 369.6857670979667,
+        "processedRowsPerSecond": 389.8635477582846,
+        "metrics": {}
+      }
+    ],
+    "sink": {
+      "description": "ForeachBatchSink",
+      "numOutputRows": -1,
+      "metrics": {}
+    },
+    "numInputRows": 200,
+    "inputRowsPerSecond": 369.6857670979667,
+    "processedRowsPerSecond": 389.8635477582846,
+    "observedMetrics": {}
+  }
+]

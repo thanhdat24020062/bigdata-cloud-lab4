@@ -1,0 +1,8 @@
+{
+  "policy_id": "888d4b467d2a7fc04b5e4f696c7689c12134b79337b6ee3b0b6cc6c67d92532e",
+  "locked_at_utc": "2026-11-24T10:00:52.934558+00:00",
+  "mode": "student-self-simulation",
+  "decision_code_sha256": "6313979b050b50be2d3c67e8172db561dac469a03a8a41afefdaa1c3a9905f5a",
+  "trusted_input_manifest_sha256": "1a4a8475166bea72626ea3b4fc4fdf84b1681dac18f7fa58844b7e60b7fc806e",
+  "handoff_sha256": "3b239837c46f0b45324ac07ad861251518dfbb4be2ce994c5c2923b122e48f0a"
+}

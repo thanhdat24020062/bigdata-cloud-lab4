@@ -1,0 +1,37 @@
+[
+  {
+    "id": "30f8c805-821e-452c-8b1b-81f23a6df374",
+    "runId": "feaeee96-b88a-4f87-ad74-43355c8b6129",
+    "name": null,
+    "timestamp": "2026-11-24T10:02:07.603Z",
+    "batchId": 3,
+    "batchDuration": 19,
+    "durationMs": {
+      "triggerExecution": 17,
+      "latestOffset": 0
+    },
+    "eventTime": {},
+    "stateOperators": [],
+    "sources": [
+      {
+        "description": "FileStreamSource[file:/home/ubuntu/Lab4-Student-Starter/data/events/test]",
+        "startOffset": "{\"logOffset\":2}",
+        "endOffset": "{\"logOffset\":2}",
+        "latestOffset": "None",
+        "numInputRows": 0,
+        "inputRowsPerSecond": 0.0,
+        "processedRowsPerSecond": 0.0,
+        "metrics": {}
+      }
+    ],
+    "sink": {
+      "description": "ForeachBatchSink",
+      "numOutputRows": -1,
+      "metrics": {}
+    },
+    "numInputRows": 0,
+    "inputRowsPerSecond": 0.0,
+    "processedRowsPerSecond": 0.0,
+    "observedMetrics": {}
+  }
+]

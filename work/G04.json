@@ -1,0 +1,10 @@
+{
+  "probe": "changed-payload",
+  "expected": 409,
+  "observed": 409,
+  "expected_error": "decision differs from locked rule/data",
+  "passed": true,
+  "response": {
+    "error": "decision differs from locked rule/data"
+  }
+}

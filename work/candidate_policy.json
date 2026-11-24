@@ -1,9 +1,9 @@
 {
-  "policy_id": "90756b4628c14527073b9d35997398d07e881e592b58086ed6c967f83849920b",
+  "policy_id": "888d4b467d2a7fc04b5e4f696c7689c12134b79337b6ee3b0b6cc6c67d92532e",
   "team_id": "team-01",
   "threshold": "1.50",
   "baseline_sha256": "6e0d43a4e3c5f714ee3eb205d1456b029d64db349837653b54cc5cbe1798351e",
   "handoff_sha256": "3b239837c46f0b45324ac07ad861251518dfbb4be2ce994c5c2923b122e48f0a",
-  "decision_code_sha256": "c8d8cfdbc955bea6c33ef633b955d1c1aa634c24a7a9051b5378e928ac8a0135",
+  "decision_code_sha256": "6313979b050b50be2d3c67e8172db561dac469a03a8a41afefdaa1c3a9905f5a",
   "contract_sha256": "9a5505828f9bbac1fdf76082663a3c85f34281b27b02d8ebfa3bdf681abe6f2f"
 }

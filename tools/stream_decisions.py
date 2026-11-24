@@ -3,6 +3,7 @@
 Python mode is an explicit non-Spark functional fallback for local debugging.
 """
 import argparse
+import json
 import os
 import platform
 import sys
@@ -155,7 +156,7 @@ def main():
         )
         query.awaitTermination()
         runtime_meta.update(query_id=str(query.id), run_id=str(query.runId))
-        write_json(work_dir / f"stream_progress_{args.label}.json", query.recentProgress)
+        write_json(work_dir / f"stream_progress_{args.label}.json", json.loads(json.dumps(query.recentProgress, default=str)))
         spark.stop()
 
     runtime_meta["wall_seconds"] = time.perf_counter() - run_start
