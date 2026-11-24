@@ -1,0 +1,36 @@
+{
+  "runtime": {
+    "mode": "spark",
+    "master": "local[2]",
+    "host": "ip-172-31-26-228",
+    "python": "3.11.18",
+    "spark": "4.0.1",
+    "application_id": "local-1795514531425",
+    "query_id": "1ab04630-4936-412e-9ae5-ea45fcedd84f",
+    "run_id": "d1107b40-3427-49bd-ab3f-fbe6f7bc0507",
+    "wall_seconds": 11.813055867009098
+  },
+  "batches": [
+    {
+      "batch_id": 0,
+      "input_rows": 200,
+      "new_decisions": 0,
+      "replays": 200,
+      "callback_seconds": 0.03307929300353862
+    },
+    {
+      "batch_id": 1,
+      "input_rows": 200,
+      "new_decisions": 0,
+      "replays": 200,
+      "callback_seconds": 0.04224726097891107
+    },
+    {
+      "batch_id": 2,
+      "input_rows": 200,
+      "new_decisions": 0,
+      "replays": 200,
+      "callback_seconds": 0.04648816600092687
+    }
+  ]
+}

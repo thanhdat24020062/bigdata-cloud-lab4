@@ -1,8 +1,8 @@
 id,probe,expected,observed,evidence_path
-G01,Invalid credential,401 and no business-state mutation,,
+G01,Invalid credential,401 and no business-state mutation,401 passed,work/G01.json
 G02,Analyst review attempt,403 with no approval,,
-G03,Self-approval despite overlapping role,403 with no approval,,
-G04,Changed decision payload,409 with no altered decision,,
+G03,Self-approval despite overlapping role,403 with no approval,403 passed,work/G03.json
+G04,Changed decision payload,409 with no altered decision,409 passed,work/G04.json
 G05,Short review reason,400 and still pending,,
 G06,Review NORMAL or HOLD,409 and no outbox,,
 G07,Dispatch before approval,zero tickets,,

@@ -1,5 +1,5 @@
 member,technical_role,code_commit_or_hash,evidence_path,cross_check,individual_demo
-A,Input integrity and producer/stream operation,,,,
+A,Input integrity and producer/stream operation,frozen decision_impl.py sha256 6313979b050b...; tools/stream_decisions.py (1-line UUID fix) sha256 2a9abb870b32...,work/input_check.json; work/stream_run_first.json; work/stream_run_restart.json; work/stream_run_replay.json; work/stream_progress_*.json; work/G01.json; work/G03.json; work/G04.json,,
 B,Baseline and cutoff verification,,,,
 C,Scoring metrics and validation selection,,,,
 D,Semantic key independent review and recovery,,,,

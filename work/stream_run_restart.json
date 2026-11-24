@@ -1,0 +1,14 @@
+{
+  "runtime": {
+    "mode": "spark",
+    "master": "local[2]",
+    "host": "ip-172-31-26-228",
+    "python": "3.11.18",
+    "spark": "4.0.1",
+    "application_id": "local-1795514523012",
+    "query_id": "30f8c805-821e-452c-8b1b-81f23a6df374",
+    "run_id": "feaeee96-b88a-4f87-ad74-43355c8b6129",
+    "wall_seconds": 8.133980716986116
+  },
+  "batches": []
+}
