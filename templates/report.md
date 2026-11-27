@@ -58,8 +58,22 @@ the cost-optimal threshold reflects that injection design, not real incident rat
 **Semantic key.** SHA-256 of the UTF-8 JSON `[team_id, source_object, source_row, source_sha256, record_id, policy_id]` (`ensure_ascii=False`, compact separators). It excludes batch_id, checkpoint path, arrival order and wall-clock time, so a new checkpoint produces the same key.
 
 ## 4. Failure and accountability
-Before/after control/outbox/receiver states. Explain the commit/acknowledgement
-window, why retry does not add a fourth ticket, and why PAUSE is not undo.
+*Owner: Member D (reviewer, operator). Evidence: `work/before_approval.json`, `review_01..05.json`, `paused.json`, `blocked.json`, `resumed.json`, `failure.json`, `recovered.json`, `repeated.json`.*
+
+| Step | Control / outbox | Receiver | Evidence |
+|---|---|---|---|
+| G07 dispatch before approval | outbox empty | 0 tickets (`delivered=0`) | `before_approval.json` |
+| G08 five reviews (S11, S03, S09 approved; S06, S18 rejected) | 3 APPROVED/PENDING in outbox, 2 REJECTED | 0 tickets | `review_01..05.json` |
+| G09 PAUSE then dispatch | HTTP 409 `dispatch paused`, 3 still PENDING | 0 new tickets | `paused.json`, `blocked.json` |
+| G10 `--fail-after-effect` | HTTP 503, sender never acknowledged | 1 ticket already committed | `failure.json` |
+| G11a retry dispatch | 3 DELIVERED | 3 distinct tickets (`receiver_deduplicated=1`) | `recovered.json` |
+| G11b dispatch again | 0 PENDING | still 3 (`delivered=0`) | `repeated.json` |
+
+**Commit/acknowledgement window.** The receiver commits a ticket in its own database, then the sender records DELIVERED in the control database. A failure between the two (G10) leaves the receiver one ticket ahead of the sender, which still sees the request as PENDING. The sender cannot tell "not delivered" from "delivered, acknowledgement lost", so it must retry.
+
+**Why no fourth ticket.** The Transactional Outbox keeps the approved request until the sender is acknowledged, so a failure cannot lose a ticket. Retrying all three requests is then safe only because the receiver is keyed by `action_key`: the already-committed ticket is recognised (`receiver_deduplicated=1`) and just two new tickets are added, giving 3 for 3 approvals. The key is a deterministic function of source object, row, source hash, record id and policy, not of batch, checkpoint or time, so a replay produces the same key.
+
+**PAUSE is not undo.** PAUSE only blocks dispatch (HTTP 409); approvals already recorded stay in the outbox and nothing is reverted or deleted. After RESUME the same three requests are delivered. Reviewing is accountable separately: each of the five decisions has a named reviewer role, a reason of at least 8 characters, and a DENIED audit entry for each refused attempt (G05, G06).
 ## 5. Dashboard and limitations
 `work/dashboard.html` (six sections) is rendered only after `verify_audit` passes against the anchor; it also checks that the Gold context equals the inherited `gold_lab3.json` and that the snapshot `policy_id` equals the locked policy.
 
@@ -77,6 +91,8 @@ member independently verified the result. Never include credentials.
 - **A (input integrity, producer and stream operation):** ran preflight (`input_check.json`), the three Spark controls and the G01/G03/G04 probes (401, 403, 409). The merged `decision_impl.py` was drafted with AI assistance (Claude). A verified it independently: confirmed the file sha256 6313979b... equals `lock_receipt` and `candidate_policy`, ran 8/8 unit tests and `calibrate` (1.50, cost_units 804), and recomputed the S01 baseline (n=486). Disclosure: the supplied `tools/stream_decisions.py` failed on PySpark 4.0.1 (`TypeError: UUID is not JSON serializable` in `query.recentProgress`); A changed one line to `json.loads(json.dumps(query.recentProgress, default=str))` and added `import json`, then deleted the checkpoints, ran `init_sandbox.py --reset`, restarted the server and reran all three Spark runs from clean state. Defense: Spark checkpointing records which input offsets were processed, but the HTTP call to the Action Server is an external side effect outside that transaction. A crash after the ticket is created and before the checkpoint commit makes Spark reprocess the batch; without a semantic key and an idempotent receiver that creates a second ticket.
 
 - **C (scoring, metrics, validation selection):** `score_event`/`evaluate` were drafted with AI assistance (Claude). C verified them independently: 8/8 public tests pass on the frozen code (sha256 6313979b...), calibrate selects 1.50, hand recomputation of cost_units 804 = 50*1 + 10*32 + 2*117 + 10*20, HOLD = 20 equals the rows with lag > 900 s, and extra edge cases (lag 900 vs 901 s, NaN/Inf/empty/60.01, half-up rounding, duplicate ids and non-0/1 labels raise ValueError).
+
+- **D (action key, independent review, fault recovery):** `make_action_key` was drafted with AI assistance (Codex); D ran every command, reviewed each alert on the EC2 server and checked the results. D verified it independently: 8/8 public tests (same record gives the same key, a different `policy_id` gives a different key), `calibrate` for team-01 again selects 1.50 as C found, and `failure.json`, `recovered.json` and `repeated.json` agree (one ticket committed before the 503, recognised on retry, no new request on the last dispatch). D also ran the G05 (short reason, HTTP 400) and G06 (non-alert review, HTTP 409) probes, the pre-approval dispatch (G07), and five reviews: 3 approved (S11, S03, S09) and 2 rejected (S06, S18). Defense: the outbox preserves the request across a lost acknowledgement, but only the idempotent receiver turns the retry into the same ticket.
 
 - **E (audit verification, dashboard):** `verify_audit` was drafted with AI assistance (Claude). E verified it independently: 14 own unit tests (tampered entry, truncation, rehash with old anchor, empty log, malformed entries, NaN, bool seq), an `audit_challenge.py` dry run on a synthetic chain, then the real snapshot/anchor (4/4). E also cross-checked the team's code lock: `templates/decision_impl.py` on main (c8d8cfdb...) differed from the hash in `lock_receipt.json` (6313979b...) by comments only, and the frozen file was restored via PR so the hashes match. Read-only database check before G02: 600 decisions, 3 tickets, 2 REJECTED, 620 audit entries.
 
