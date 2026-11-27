@@ -1,7 +1,6 @@
 # Lab 4 group report — maximum four pages excluding machine evidence
 ## 1. Identity and mode
-Team, members, approved Lab 3 release or declared fallback; hashes, table/version
-binding and history cutoff; Spark or explicit functional fallback.
+Team team-01 (g01), members A-E. Handoff mode: `course-fallback` (Lab 3 TA reference, `Lab3-TA-Reference.zip` sha256 7459f993...); silver 9,710 rows, gold 20 rows; fit cutoff 2026-02-09T00:00:00Z (history max event 2026-02-06T01:40:00Z, max ingest 2026-02-06T01:41:00Z). Trusted manifest sha256 1a4a8475...; handoff sha256 3b239837.... This is not live Delta snapshot evidence. Execution: Spark 4.0.1 Structured Streaming, `local[2]`, one EC2 host, Python 3.11.18 (multi-host not demonstrated). Frozen `decision_impl.py` sha256 6313979b050b...; policy_id 888d4b46...; `lock_receipt.json`, `candidate_policy.json` and the file on main carry the same hash.
 ## 2. Policy selection
 *Owner: Member C (`score_event`, `evaluate`, `calibrate`). Evidence: `work/validation_report.json`,
 `work/candidate_policy.json`, `work/validation_predictions.json`.*
@@ -54,8 +53,10 @@ frozen. Test labels are never read and Test (2026-02-11) is streamed once with t
 no threshold is retuned on Test. Limitation: Validation labels are synthetic injected episodes, so
 the cost-optimal threshold reflects that injection design, not real incident rates.
 ## 3. Replay and review
-First/restart/fresh-checkpoint evidence; semantic key fields; five selected alerts;
-three independent approvals and two rejections, with record-specific reasons.
+**Replay (A).** Test (2026-02-11) was streamed three times through `foreachBatch` with `checkpointLocation`. First run: 3 batches of 200 rows -> 600 new decisions, 0 replays. Restart with the same checkpoint: no batches (offsets already committed), 0/0. Fresh checkpoint over the same files: 3 batches of 200 rows -> 0 new decisions, 600 replays, because the Action Server recognises the semantic key and returns the stored decision. Evidence: `work/stream_run_first.json`, `stream_run_restart.json`, `stream_run_replay.json`, `stream_progress_*.json`, `predictions_*.json`.
+
+**Semantic key.** SHA-256 of the UTF-8 JSON `[team_id, source_object, source_row, source_sha256, record_id, policy_id]` (`ensure_ascii=False`, compact separators). It excludes batch_id, checkpoint path, arrival order and wall-clock time, so a new checkpoint produces the same key.
+
 ## 4. Failure and accountability
 Before/after control/outbox/receiver states. Explain the commit/acknowledgement
 window, why retry does not add a fourth ticket, and why PAUSE is not undo.
@@ -72,6 +73,8 @@ Limitations: (1) The stream adapter collects at most 1,001 rows per batch on the
 ## 6. Individual contributions and assistance
 Link authored code/commands and cross-checks. Record external/AI help and how each
 member independently verified the result. Never include credentials.
+
+- **A (input integrity, producer and stream operation):** ran preflight (`input_check.json`), the three Spark controls and the G01/G03/G04 probes (401, 403, 409). The merged `decision_impl.py` was drafted with AI assistance (Claude). A verified it independently: confirmed the file sha256 6313979b... equals `lock_receipt` and `candidate_policy`, ran 8/8 unit tests and `calibrate` (1.50, cost_units 804), and recomputed the S01 baseline (n=486). Disclosure: the supplied `tools/stream_decisions.py` failed on PySpark 4.0.1 (`TypeError: UUID is not JSON serializable` in `query.recentProgress`); A changed one line to `json.loads(json.dumps(query.recentProgress, default=str))` and added `import json`, then deleted the checkpoints, ran `init_sandbox.py --reset`, restarted the server and reran all three Spark runs from clean state. Defense: Spark checkpointing records which input offsets were processed, but the HTTP call to the Action Server is an external side effect outside that transaction. A crash after the ticket is created and before the checkpoint commit makes Spark reprocess the batch; without a semantic key and an idempotent receiver that creates a second ticket.
 
 - **C (scoring, metrics, validation selection):** `score_event`/`evaluate` were drafted with AI assistance (Claude). C verified them independently: 8/8 public tests pass on the frozen code (sha256 6313979b...), calibrate selects 1.50, hand recomputation of cost_units 804 = 50*1 + 10*32 + 2*117 + 10*20, HOLD = 20 equals the rows with lag > 900 s, and extra edge cases (lag 900 vs 901 s, NaN/Inf/empty/60.01, half-up rounding, duplicate ids and non-0/1 labels raise ValueError).
 
